@@ -8,7 +8,7 @@ O objetivo deste repositório é compartilhar soluções de problemas computacio
 
 ### [Problema 1](https://github.com/ednilsonrossi/Problems_and_Soluctions/tree/main/soluctions/problem_0001)
 
-Implementar um programa que leia dois números inteiros referentes aos lados de uma figura geométrica. O programa deve informar se os dados formam um quadrado ou um retângulo.
+Desenvolva um programa que leia dois números inteiros referentes aos lados de uma figura geométrica. O programa deve informar se os dados formam um quadrado ou um retângulo.
 
 ### [Problema 2](https://github.com/ednilsonrossi/Problems_and_Soluctions/tree/main/soluctions/problem_0002)
 
