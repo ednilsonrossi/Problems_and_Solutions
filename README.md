@@ -26,4 +26,4 @@ Desenvolva um programa que apresente os números de 1 a 100 na mesma linha, em o
 
 Desenvolva um programa que leia um valor inteiro N. Este N indica a quantidade de linhas de saída que serão apresentadas na execução do programa. Observando a tela e saída, apresentada abaixo, descubra a lógica da brincadeira e elabore o programa.
 
-![Screen](https://github.com/ednilsonrossi/Problems_and_Soluctions/tree/main/assets/problem_0005.png)
+![Screen](https://github.com/ednilsonrossi/Problems_and_Soluctions/blob/main/assets/problem_0005.png?raw=true)
