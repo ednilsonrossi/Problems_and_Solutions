@@ -1,7 +1,7 @@
 # Problemas e Soluções
 
-## Objetivo
-O objetivo deste repositório é compartilhar soluções de problemas computacionais em diversas linguagens e paradigmas de programação. Selecione o problema e acesse a solução.
+Este repositório compartilha soluções de problemas computacionais utilizados no ensino de lógica, linguagens e paradgimas de programação. Os enunciados dos problemas têm origem em livros, artigos e sites de diversos autores. Selecione o problema e acesse a solução.
+
 
 ## Problemas
 
@@ -26,4 +26,16 @@ Desenvolva um programa que apresente os números de 1 a 100 na mesma linha, em o
 
 Desenvolva um programa que leia um valor inteiro N. Este N indica a quantidade de linhas de saída que serão apresentadas na execução do programa. Observando a tela e saída, apresentada abaixo, descubra a lógica da brincadeira e elabore o programa.
 
-![Screen](https://github.com/ednilsonrossi/Problems_and_Soluctions/blob/main/assets/problem_0005.png?raw=true)
+![I/O screen](https://github.com/ednilsonrossi/Problems_and_Soluctions/blob/main/assets/problem_0005.png?raw=true)
+
+### [Problema 6](https://github.com/ednilsonrossi/Problems_and_Soluctions/tree/main/soluctions/problem_0006)
+
+Dois números são ditos amigáveis, se cada um deles é igual à soma dos divisores próprios do outro. Por exemplo, 284 e 220 são amigáveis, pois a soma dos divisores próprios de 220 dá 284, ao passo que a soma dos divisores próprios de 284 é 220. Desenvolva um programa que receba um número inteiro qualquer e verifique se este possui um número amigável.
+
+### [Problema 7](https://github.com/ednilsonrossi/Problems_and_Soluctions/tree/main/soluctions/problem_0007)
+
+Desenvolva um programa para ler N valores inteiros, sendo N fornecido pelo usuário. Calcule e mostre: O maior valor negativo; O menor valor positivo.
+
+### [Problema 8](https://github.com/ednilsonrossi/Problems_and_Soluctions/tree/main/soluctions/problem_0008)
+
+Desenvolva um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
