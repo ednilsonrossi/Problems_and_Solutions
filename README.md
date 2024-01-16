@@ -39,3 +39,24 @@ Desenvolva um programa para ler N valores inteiros, sendo N fornecido pelo usuá
 ### [Problema 8](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0008)
 
 Desenvolva um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
+
+### [Problema 9](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0009)
+
+Desenvolva um projeto para gerenciar dados de filmes. 
+
+Sabe-se que os dados armazenados são:
+
+- Filme [título, Diretor, elenco (vários atores), ano de lançamento, nota (de 0 a 5) ]
+- Diretor [nome]
+- Ator [nome, ano de nascimento]
+
+Os requisitos funcionais são:
+
+- **Adicionar filme:** O usuário informa título, nome do diretor, nome de todos atores do elenco, ano de lançamento e nota. O sistema deve armazenar os dados do filme.
+- **Listar todos os filmes:** O usuário solicita a apresentação da lista de todos os filmes já cadastrados.
+- **Listar diretores:** O usuário solicita a apresentação da lista de diretores cadastrados.
+- **Lista de atores:** O usuário solicita a apresentação da lista de atores cadastrados.
+- **Listar filmes de um diretor:** O usuário seleciona um diretor e o sistema apresenta uma lista com todos os filmes dirigidos pelo diretor selecionado.
+- **Listar filmes de um ator:** O usuário seleciona um ator e o sistema apresenta uma lista com todos os filmes em que o ator fez parte do elenco.
+- **Listar filmes por nota:** o usuário informa uma nota e o sistema apresenta uma lista com os filmes com nota igual ou superior à informada.
+
