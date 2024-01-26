@@ -60,3 +60,14 @@ Os requisitos funcionais são:
 - **Listar filmes de um ator:** O usuário seleciona um ator e o sistema apresenta uma lista com todos os filmes em que o ator fez parte do elenco.
 - **Listar filmes por nota:** o usuário informa uma nota e o sistema apresenta uma lista com os filmes com nota igual ou superior à informada.
 
+### [Problema 10](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0010)
+
+Desenvolva um sistema simples de gerenciamento de usuários e login. A aplicação deve simular o acesso a um banco de dados por meio de listas em memória. Deve-se utilizar no desenvolvimento os padrões Singleton e DAO.
+
+O sistema possui uma entidade User com os seguintes atributos: userId, username, e-mail, password. 
+
+São requisitos funcionais do sistema:
+
+    1. Inclusão de novos usuários no sistema. Não é permitido o uso de username e/ou e-mail repetidos no sistema. O usuário deve ser informado se a inclusão foi realizada ou não.
+    2. Recuperar a senha. A funcionalidade de recuperar a senha permite que o usuário troque a senha atual por uma nova. O usuário informa seu username e seu e-mail, caso os dados estejam corretos ele poderá gerar uma nova senha.
+    3. Fazer login. O usuário informa username e senha, caso os dados estejam corretos é apresentada a mensagem de sucesso de login, caso contrário o usuário recebe informação de erro.
