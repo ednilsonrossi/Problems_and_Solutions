@@ -68,6 +68,6 @@ O sistema possui uma entidade User com os seguintes atributos: userId, username,
 
 São requisitos funcionais do sistema:
 
-    1. Inclusão de novos usuários no sistema. Não é permitido o uso de username e/ou e-mail repetidos no sistema. O usuário deve ser informado se a inclusão foi realizada ou não.
-    2. Recuperar a senha. A funcionalidade de recuperar a senha permite que o usuário troque a senha atual por uma nova. O usuário informa seu username e seu e-mail, caso os dados estejam corretos ele poderá gerar uma nova senha.
-    3. Fazer login. O usuário informa username e senha, caso os dados estejam corretos é apresentada a mensagem de sucesso de login, caso contrário o usuário recebe informação de erro.
+1. Inclusão de novos usuários no sistema. Não é permitido o uso de username e/ou e-mail repetidos no sistema. O usuário deve ser informado se a inclusão foi realizada ou não.
+2. Recuperar a senha. A funcionalidade de recuperar a senha permite que o usuário troque a senha atual por uma nova. O usuário informa seu username e seu e-mail, caso os dados estejam corretos ele poderá gerar uma nova senha.
+3. Fazer login. O usuário informa username e senha, caso os dados estejam corretos é apresentada a mensagem de sucesso de login, caso contrário o usuário recebe informação de erro.
