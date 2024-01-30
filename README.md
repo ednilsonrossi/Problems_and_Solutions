@@ -79,3 +79,11 @@ Crie uma classe USMoney com dois atributos inteiros: dollars e cents. Adicione u
 Implemente um método plus() que recebe um objeto USMoney como argumento. Esse método deve criar e retornar um novo objeto USMoney representando a soma dos objeto cujo método plus() está sendo chamado mais o argumento, sem modificar os valores dos dois objetos já existentes.
 
 Deve-se assegurar que o valor do atributo cents do novo objeto esteja entre 0 e 99. Por exemplo, se x for um objeto USMoney com 5 dollars e 80 cents e se y for um objeto USMoney de 1 dollar e 90 cents, x.plus(y) retornará um novo objeto USMoney com 7 dollars e 70 cents.
+
+### [Problema 12](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0012)
+
+Implemente a classe Carta que representa a carta de um baralho. Essa classe possui como atributos o inteiro valor (representa o valor da carta de 1 a 13) e o caractere naipe (‘P’ paus, ‘C’ copas, ‘O’ ouros e ‘E’ espadas).
+
+Deve-se implementar um construtor que receba os dois argumentos e valide-os garantindo que o objeto carta instanciado é válido. Implemente também os métodos de acesso e modificadores. Implemente a classe CartaTeste que possui o método principal.
+
+O main() deve instanciar 5 cartas com dados fornecidos pelo usuário e verificar se as cartas formam um full house (isto é, três cartas com o mesmo valor e  outras duas com valores iguais). Caso formem um full house, apresente as 5 cartas usando o método toString() de cada uma delas (personalize para que seja apresentado o naipe e o valor de cada carta), caso não forme full house, apresente uma mensagem de consolação.
