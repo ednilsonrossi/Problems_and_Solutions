@@ -71,3 +71,11 @@ São requisitos funcionais do sistema:
 1. Inclusão de novos usuários no sistema. Não é permitido o uso de username e/ou e-mail repetidos no sistema. O usuário deve ser informado se a inclusão foi realizada ou não.
 2. Recuperar a senha. A funcionalidade de recuperar a senha permite que o usuário troque a senha atual por uma nova. O usuário informa seu username e seu e-mail, caso os dados estejam corretos ele poderá gerar uma nova senha.
 3. Fazer login. O usuário informa username e senha, caso os dados estejam corretos é apresentada a mensagem de sucesso de login, caso contrário o usuário recebe informação de erro.
+
+### [Problema 11](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0011)
+
+Crie uma classe USMoney com dois atributos inteiros: dollars e cents. Adicione um construtor com dois parâmetros para a inicialização do objeto USMoney. O construtor deve verificar se o valor de cents está entre 0 e 99 e,  se não estiver, transferir alguns dos cents para o atributo dollars para que ela passe a ter entre 0 e 99.
+
+Implemente um método plus() que recebe um objeto USMoney como argumento. Esse método deve criar e retornar um novo objeto USMoney representando a soma dos objeto cujo método plus() está sendo chamado mais o argumento, sem modificar os valores dos dois objetos já existentes.
+
+Deve-se assegurar que o valor do atributo cents do novo objeto esteja entre 0 e 99. Por exemplo, se x for um objeto USMoney com 5 dollars e 80 cents e se y for um objeto USMoney de 1 dollar e 90 cents, x.plus(y) retornará um novo objeto USMoney com 7 dollars e 70 cents.
