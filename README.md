@@ -87,3 +87,21 @@ Implemente a classe Carta que representa a carta de um baralho. Essa classe poss
 Deve-se implementar um construtor que receba os dois argumentos e valide-os garantindo que o objeto carta instanciado é válido. Implemente também os métodos de acesso e modificadores. Implemente a classe CartaTeste que possui o método principal.
 
 O main() deve instanciar 5 cartas com dados fornecidos pelo usuário e verificar se as cartas formam um full house (isto é, três cartas com o mesmo valor e  outras duas com valores iguais). Caso formem um full house, apresente as 5 cartas usando o método toString() de cada uma delas (personalize para que seja apresentado o naipe e o valor de cada carta), caso não forme full house, apresente uma mensagem de consolação.
+
+### [Problema 13](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0013)
+
+Uma empresa de ônibus deseja informatizar seu sistema e registrar seus passageiros em cada viagem. Existem três tipos de passageiros: __regular__, que paga a tarifa inteira da viagem; __estudante__, que paga metade do valor da passagem; e __aposentado__ que não paga passagem. Dos passageiros regulares deseja-se armazenar apenas o nome. Dos estudantes deseja-se armazenar o nome, registro acadêmico e nome da escola. Por fim, dos aposentados deseja-se armazenar o nome, ano de nascimento e RG.
+
+Deve-se implementar os seguintes métodos para os passageiros:
+
+- Construtores: de acordo com os dados de cada tipo de passageiro;
+- Métodos modificadores e de acesso de acordo com os atributos;
+- Método double getValorPagamento(double tarifa) → método recebe como argumento o valor da tarifa inteira da viagem e retorna o valor que será pago pelo passageiro;
+- Método String toString() que apresenta os dados dos passageiros, incluindo o valor do pagamento.
+
+Sabendo que o ônibus possui capacidade máxima de 40 passageiros, implemente um sistema que:
+
+- Permita o cadastro dos passageiros em um arranjo único. Observe que o usuário irá informar apenas os dados das passagens vendidas, ou seja, não necessariamente o ônibus está cheio em todas as viagens.
+- Permita a consulta da quantidade de passageiros de cada tipo durante o uso do sistema.
+- Apresente o valor faturado (faturamento bruto) da viagem.
+- Apresente o valor do lucro ou prejuízo da viagem, de acordo com o custo da viagem informado pelo usuário.
