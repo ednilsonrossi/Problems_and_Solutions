@@ -105,3 +105,7 @@ Sabendo que o ônibus possui capacidade máxima de 40 passageiros, implemente um
 - Permita a consulta da quantidade de passageiros de cada tipo durante o uso do sistema.
 - Apresente o valor faturado (faturamento bruto) da viagem.
 - Apresente o valor do lucro ou prejuízo da viagem, de acordo com o custo da viagem informado pelo usuário.
+
+### [Problema 14](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0014)
+
+Desenvolva um sistema orientado a objetos que gerencie tarefas, utilizando o padrão arquitetural MVC (Model-View-Controller). O sistema deve possibilitar a inclusão de novas tarefas e a marcação de uma tarefa como concluída. Cada tarefa, representada pela entidade 'Tarefa', possui uma descrição e um indicador que especifica se a tarefa foi concluída ou não.

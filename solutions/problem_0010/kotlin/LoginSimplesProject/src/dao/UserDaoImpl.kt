@@ -6,8 +6,6 @@ object UserDaoImpl : UserDao{
 
     private val usersList = mutableListOf<User>()
 
-
-
     override fun insert(user: User): Boolean {
         for(inDataset in usersList){
             if(inDataset.username == user.username || inDataset.email == user.email)
