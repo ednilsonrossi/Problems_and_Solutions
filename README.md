@@ -109,3 +109,25 @@ Sabendo que o ônibus possui capacidade máxima de 40 passageiros, implemente um
 ### [Problema 14](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0014)
 
 Desenvolva um sistema orientado a objetos que gerencie tarefas, utilizando o padrão arquitetural MVC (Model-View-Controller). O sistema deve possibilitar a inclusão de novas tarefas e a marcação de uma tarefa como concluída. Cada tarefa, representada pela entidade 'Tarefa', possui uma descrição e um indicador que especifica se a tarefa foi concluída ou não.
+
+### [Problema 15](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0015)
+
+Desenvolva um programa que receba um número e apresente como resultado o número elevado ao quadrado e o número elevado ao cubo.
+
+### [Problema 16](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0016)
+
+Desenvolva um programa que calcule a apresente o valor do volume de uma caixa retangular usando a fórmula:
+VOLUME <- COMPRIMENTO  x LARGURA x ALTURA
+
+### [Problema 17](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0017)
+
+Alan e Cristiano irão viajar para no fim de semana. Sabe-se que seu automóvel faz em média 12 quilômetros por litro de combustível. Eles desejam saber quantos litros de combustível gastarão na viagem. 
+
+Para realizar o cálculo, o usuário deverá fornecer o TEMPO gasto na viagem e a VELOCIDADE MÉDIA durante a viagem.
+
+O programa deve apresentar como resultado:
+
+- A velocidade média;
+- Tempo gasto na viagem;
+- Distância percorrida;
+- Quantidade de litros consumidos.
