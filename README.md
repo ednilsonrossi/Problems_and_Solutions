@@ -121,7 +121,7 @@ VOLUME <- COMPRIMENTO  x LARGURA x ALTURA
 
 ### [Problema 17](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0017)
 
-Alan e Cristiano irão viajar para no fim de semana. Sabe-se que seu automóvel faz em média 12 quilômetros por litro de combustível. Eles desejam saber quantos litros de combustível gastarão na viagem. 
+Alan e Cristiano irão viajar para no fim de semana. Sabe-se que seu automóvel faz em média 12 quilômetros por litro de combustível. Eles desejam saber quantos litros de combustível gastarão na viagem.
 
 Para realizar o cálculo, o usuário deverá fornecer o TEMPO gasto na viagem e a VELOCIDADE MÉDIA durante a viagem.
 
@@ -131,3 +131,16 @@ O programa deve apresentar como resultado:
 - Tempo gasto na viagem;
 - Distância percorrida;
 - Quantidade de litros consumidos.
+
+### [Problema 18](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0018)
+
+Uma locadora de charretes cobra R$ 8,50 de taxa para cada 3 horas de uso destas e R$ 3,50 para cada hora abaixo destas 3 horas.
+
+Desenvolva um programa que, dado a quantidade de horas que a charrete foi usada, calcule e escreva quanto o cliente tem de pagar.
+
+Exemplos:
+
+- Utilização 2 horas, pagar R$ 7,00;
+- Utilização 3 horas, pagar R$ 8,50;
+- Utilização 5 horas, pagar R$ 15,50.
+
