@@ -144,3 +144,6 @@ Exemplos:
 - Utilização 3 horas, pagar R$ 8,50;
 - Utilização 5 horas, pagar R$ 15,50.
 
+### [Problema 19](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0019)
+
+Desenvolva um programa que lê um valor em reais (R$) e calcule qual o menor número possível de notas (cédulas) de 100, 50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a relação de notas necessárias.
