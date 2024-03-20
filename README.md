@@ -151,3 +151,12 @@ Desenvolva um programa que lê um valor em reais (R$) e calcule qual o menor nú
 ### [Problema 20](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0020)
 
 Desenvolva um programa que lê o valor de uma compra em dólares, a taxa do dólar no dia da compra, o percentual de ICMS e o percentual de lucro da empresa; e que calcule e escreva o valor a ser pago em reais, sabendo-se que o percentual de lucro e o percentual de ICMS incidem sobre o valor em reais.
+
+### [Problema 21](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0021)
+
+Um hotel com 42 apartamentos resolveu fazer promoções para os fins de semana fora da alta temporada, isto é, nos meses de abril, maio, junho, agosto, setembro, outubro e novembro. A taxa da promoção é de 22% da diária normal. A ocupação média do hotel sem promoção é de 40%. A expectativa é aumentar a taxa de ocupação para 70%. Supondo que as expectativas se confirmem, desenvolver um programa que lê a diária normal, que calcule e escreva as seguintes informações: 
+
+(a) O valor da diária no período da promoção. 
+(b) O valor médio arrecadado sem a promoção, durante um mês. 
+(c) O valor médio arrecadado com a promoção, durante um mês. 
+(d) O lucro ou prejuízo mensal com a promoção.
