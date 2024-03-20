@@ -147,3 +147,7 @@ Exemplos:
 ### [Problema 19](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0019)
 
 Desenvolva um programa que lê um valor em reais (R$) e calcule qual o menor número possível de notas (cédulas) de 100, 50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a relação de notas necessárias.
+
+### [Problema 20](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0020)
+
+Desenvolva um programa que lê o valor de uma compra em dólares, a taxa do dólar no dia da compra, o percentual de ICMS e o percentual de lucro da empresa; e que calcule e escreva o valor a ser pago em reais, sabendo-se que o percentual de lucro e o percentual de ICMS incidem sobre o valor em reais.
