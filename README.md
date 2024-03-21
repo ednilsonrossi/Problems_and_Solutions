@@ -182,3 +182,7 @@ Desenvolver um programa que, dado 4 notas de provas, a b, c, e d, calcule e escr
 ![Quadrática](https://github.com/ednilsonrossi/Problems_and_Solutions/blob/main/assets/problem_0025_B.png?raw=true)
 
 ![Harmônica](https://github.com/ednilsonrossi/Problems_and_Solutions/blob/main/assets/problem_0025_C.png?raw=true)
+
+### [Problema 26](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0026)
+
+Desenvolva um programa que calcule o valor em R$, gasto por um fumante. Dados: o número de anos que ele fuma, o número de cigarros consumidos por dia e o preço de um maço de cigarros. Leve em consideração que um maço de cigarros possui 20 cigarros.
