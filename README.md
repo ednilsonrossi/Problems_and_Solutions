@@ -164,3 +164,7 @@ Um hotel com 42 apartamentos resolveu fazer promoções para os fins de semana f
 ### [Problema 22](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0022)
 
 Desenvolva um programa que lê o público total de uma partida de futebol e forneça a renda do jogo, sabendo-se que havia 4 tipos de ingressos assim distribuídos: popular - 10% a R$ 1,00, geral - 50% a R$ 5,00, arquibancada - 30% a R$ 10,00 e cadeiras - 10% a R$ 20,00.
+
+### [Problema 23](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0023)
+
+Uma autolocadora aluga seus carros com uma taxa fixa por dia, uma taxa por km rodado e desconto de 10% na taxa fixa de aluguel por dia. Desenvolva um programa que leia a taxa fixa por dia, a taxa por km rodado, o número de dias e o número de quilômetros rodados. Deve também calcular e escrever o valor total do aluguel, o valor do desconto, o número de dias e a quilometragem rodada.
