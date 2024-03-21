@@ -168,3 +168,17 @@ Desenvolva um programa que lê o público total de uma partida de futebol e forn
 ### [Problema 23](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0023)
 
 Uma autolocadora aluga seus carros com uma taxa fixa por dia, uma taxa por km rodado e desconto de 10% na taxa fixa de aluguel por dia. Desenvolva um programa que leia a taxa fixa por dia, a taxa por km rodado, o número de dias e o número de quilômetros rodados. Deve também calcular e escrever o valor total do aluguel, o valor do desconto, o número de dias e a quilometragem rodada.
+
+### [Problema 24](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0024)
+
+Desenvolver um programa que leia a taxa de potência de um refrigerador, o tempo que permaneceu ligado, o valor do quilowatt hora e que calcule e escreva a energia total gasta pelo refrigerador, bem como o valor a ser pago à companhia de Energia Elétrica.
+
+### [Problema 25](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0025)
+
+Desenvolver um programa que, dado 4 notas de provas, a b, c, e d, calcule e escreva o valor das seguintes médias:
+
+![Aritmética](https://github.com/ednilsonrossi/Problems_and_Solutions/blob/main/assets/problem_0025_A.png?raw=true)
+
+![Quadrática](https://github.com/ednilsonrossi/Problems_and_Solutions/blob/main/assets/problem_0025_B.png?raw=true)
+
+![Harmônica](https://github.com/ednilsonrossi/Problems_and_Solutions/blob/main/assets/problem_0025_C.png?raw=true)
