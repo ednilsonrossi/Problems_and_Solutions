@@ -186,3 +186,7 @@ Desenvolver um programa que, dado 4 notas de provas, a b, c, e d, calcule e escr
 ### [Problema 26](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0026)
 
 Desenvolva um programa que calcule o valor em R$, gasto por um fumante. Dados: o número de anos que ele fuma, o número de cigarros consumidos por dia e o preço de um maço de cigarros. Leve em consideração que um maço de cigarros possui 20 cigarros.
+
+### [Problema 27](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0027)
+
+O coração humano bate em média uma vez por segundo. Desenvolva um programa para calcular e escrever quantas vezes o coração de uma pessoa baterá se viver X anos. Dado de entrada: idade da pessoa (inteiro em anos). Considerações: 1 ano = 365,25 dias, 1 dia = 24 horas, 1 hora = 60 minutos e 1 minuto = 60 segundos.
