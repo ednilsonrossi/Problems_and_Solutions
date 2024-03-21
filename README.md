@@ -190,3 +190,12 @@ Desenvolva um programa que calcule o valor em R$, gasto por um fumante. Dados: o
 ### [Problema 27](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0027)
 
 O coração humano bate em média uma vez por segundo. Desenvolva um programa para calcular e escrever quantas vezes o coração de uma pessoa baterá se viver X anos. Dado de entrada: idade da pessoa (inteiro em anos). Considerações: 1 ano = 365,25 dias, 1 dia = 24 horas, 1 hora = 60 minutos e 1 minuto = 60 segundos.
+
+### [Problema 28](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0028)
+
+Desenvolva um programa que leia um número inteiro qualquer. O programa deve apresentar o duplo antecessor, o antecessor, o número lido, o sucessor e o duplo sucessor. Por exemplo, se o número lido for 5, deve-se apresentar a seguinte lista de números: 3, 4, 5, 6, 7.
+
+Para solucionar o problema deve-se utilizar as seguintes (somente essas) funções:
+
+- int antecessor(int numero);
+- int sucessor(int numero);
