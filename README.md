@@ -199,3 +199,13 @@ Para solucionar o problema deve-se utilizar as seguintes (somente essas) funçõ
 
 - int antecessor(int numero);
 - int sucessor(int numero);
+
+### [Problema 29](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0029)
+
+Desenvolva um programa que leia uma data no formado ddmmaaaa, em apenas um número inteiro. O programa deve apresentar a data no formato dd/mm/aaaa.
+
+Para solucionar o problema deve-se utilizar as seguintes funções:
+
+- int obtem_dia(int datacompleta);
+- int obtem_mes(int datacompleta);
+- int obtem_ano(int datacompleta);
