@@ -209,3 +209,7 @@ Para solucionar o problema deve-se utilizar as seguintes funções:
 - int obtem_dia(int datacompleta);
 - int obtem_mes(int datacompleta);
 - int obtem_ano(int datacompleta);
+
+### [Problema 30](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0030)
+
+Uma fábrica de camisetas produz camisetas nos tamanhos pequeno, médio e grande e cada uma é vendida, respectivamente por R$10.00, R$12.00 e R$15.00. Desenvolva um programa no qual o usuário forneça a quantidade de camisetas pequenas, médias e grandes referentes a uma venda. O programa deve calcular e mostrar o valor total da venda e o valor total da venda com um desconto de 25%. Todos os cálculos devem ser realizados em funções.
