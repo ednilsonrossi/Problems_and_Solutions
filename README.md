@@ -213,3 +213,10 @@ Para solucionar o problema deve-se utilizar as seguintes funções:
 ### [Problema 30](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0030)
 
 Uma fábrica de camisetas produz camisetas nos tamanhos pequeno, médio e grande e cada uma é vendida, respectivamente por R$10.00, R$12.00 e R$15.00. Desenvolva um programa no qual o usuário forneça a quantidade de camisetas pequenas, médias e grandes referentes a uma venda. O programa deve calcular e mostrar o valor total da venda e o valor total da venda com um desconto de 25%. Todos os cálculos devem ser realizados em funções.
+
+### [Problema 31](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0031)
+
+Desenvolva um programa que leia um número inteiro de três algarismos, apresente a soma entre o número e o inverso deste número. Exemplo: número = 123, inverso = 321, soma = 444. Deve-se utilizar as seguintes funções:
+
+- int inverter(int numero);
+- int soma(int a, int b);
