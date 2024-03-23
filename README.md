@@ -220,3 +220,16 @@ Desenvolva um programa que leia um número inteiro de três algarismos, apresent
 
 - int inverter(int numero);
 - int soma(int a, int b);
+
+### [Problema 32](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0032)
+
+Desenvolva um programa para ler um número inteiro de 3 algarismos e construir e mostrar outro número de 4 algarismos de acordo com a seguintes regras:
+a. Os três primeiros algarismos, contados da esquerda para direita são iguais aos do número dado.
+b. O quarto algarismo é um dígito de controle calculado da seguinte forma: primeiro algarismo + segundo algarismo x 3 + terceiro algarismo x 5; o digito de controle é igual ao resto da divisão dessa soma por 7.
+
+Deve-se utilizar as seguintes funções:
+
+- int digito_verificador(int numero);
+- int numero_quatro_algarismos(int numero);
+
+Observe que a função numero_quatro_algarismos() devolve o número final calculado usando a função digito_verificador().
