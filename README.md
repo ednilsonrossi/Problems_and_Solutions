@@ -243,3 +243,15 @@ Desenvolva um programa que calcule a [média ponderada](https://brasilescola.uol
 - nota 3 com peso 3.
 
 O programa deve obter as notas e calcular a mostrar a média do aluno.
+
+### [Problema 34](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0034)
+
+Desenvolva um programa para ler o número de votos brancos, nulos e válidos. Calcular e escrever o total de votos (total de eleitores) e o percentual que cada um representa em relação ao total de eleitores.
+
+### [Problema 35](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0035)
+
+Pedro comprou um saco de ração com peso em quilos. Pedro possui dois gatos para os quais fornece, diariamente, a quantidade de ração,  em gramas. Desenvolva um programa que receba o peso do saco de ração e a quantidade de ração fornecida para cada gato. Calcule e mostre quanto restará de ração no saco após 5 dias.
+
+### [Problema 36](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0036)
+
+Um motorista de táxi deseja calcular o rendimento de seu carro na praça. Sabendo-se que o preço do combustível é de R$3,82 faça um programa para ler a marcação do odômetro no início do dia, a marcação do odômetro no final do dia, o número de litros de combustível gastos e o valor total (R$) recebido dos passageiros. Desenolva um programa para calcular e escrever a média do consumo em km/l e o lucro líquido do dia.
