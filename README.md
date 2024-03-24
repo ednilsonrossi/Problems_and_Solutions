@@ -260,4 +260,9 @@ Um motorista de táxi deseja calcular o rendimento de seu carro na praça. Saben
 
 Três amigos, Carlos, André e Felipe decidiram rachar igualmente a conta de um bar. Desenvolva  um programa para ler o valor total da conta, calcular e mostrar quanto cada um deve pagar, mas faça com que Carlos e André não paguem centavos. Ex.: uma conta de R$101,53 resulta em R$33,00 para Carlos, R$33,00 para André e R$35,53 para Felipe. 
 
-oi
+### [Problema 38](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0038)
+
+Desenvolva um programa para ler o ano de nascimento de uma pessoa e o ano atual. Calcular e mostrar os itens a seguir.
+
+- A idade dessa pessoa, após seu aniversário no ano atual;
+- A idade dessa pessoa no ano de 2052.
