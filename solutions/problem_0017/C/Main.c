@@ -1,4 +1,7 @@
 /**
+ * Elaborado por: Ednilson Rossi
+ * Data.........: 24/03/2024
+ * 
  * Solução iniciante, sem utilização de funções matemáticas. Objetivo de introdução à
  * programmação em linguagem C.
  * 
