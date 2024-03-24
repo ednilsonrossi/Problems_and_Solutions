@@ -233,3 +233,13 @@ Deve-se utilizar as seguintes funções:
 - int numero_quatro_algarismos(int numero);
 
 Observe que a função numero_quatro_algarismos() devolve o número final calculado usando a função digito_verificador().
+
+### [Problema 33](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0033)
+
+Desenvolva um programa que calcule a [média ponderada](https://brasilescola.uol.com.br/matematica/media-ponderada.htm) de um aluno. Sabe-se que o peso das notas são: 
+
+- nota 1 com peso 5;
+- nota 2 com peso 7;
+- nota 3 com peso 3.
+
+O programa deve obter as notas e calcular a mostrar a média do aluno.
