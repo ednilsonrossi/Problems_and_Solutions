@@ -254,7 +254,7 @@ Pedro comprou um saco de ração com peso em quilos. Pedro possui dois gatos par
 
 ### [Problema 36](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0036)
 
-Um motorista de táxi deseja calcular o rendimento de seu carro na praça. Sabendo-se que o preço do combustível é de R$3,82 faça um programa para ler a marcação do odômetro no início do dia, a marcação do odômetro no final do dia, o número de litros de combustível gastos e o valor total (R$) recebido dos passageiros. Desenolva um programa para calcular e escrever a média do consumo em km/l e o lucro líquido do dia.
+Um motorista de táxi deseja calcular o rendimento de seu carro na praça. Sabendo-se que o preço do combustível é de R$3,82 faça um programa para ler a marcação do odômetro no início do dia, a marcação do odômetro no final do dia, o número de litros de combustível gastos e o valor total (R$) recebido dos passageiros. Desenvolva um programa para calcular e escrever a média do consumo em km/l e o lucro líquido do dia.
 
 ### [Problema 37](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0037)
 
