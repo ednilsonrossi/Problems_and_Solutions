@@ -266,3 +266,7 @@ Desenvolva um programa para ler o ano de nascimento de uma pessoa e o ano atual.
 
 - A idade dessa pessoa, após seu aniversário no ano atual;
 - A idade dessa pessoa no ano de 2052.
+
+### [Problema 39](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0039)
+
+Desenvolva um programa que leia um valor inteiro referente ao tempo de duração em segundos de um determinado evento. O programa deve informar o tempo expresso no formato horas:minutos:segundos.
