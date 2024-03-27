@@ -1,3 +1,8 @@
+/*
+ * Elaborado por: Ednilson G Rossi
+ * linktr.ee/ednilsonrossi
+ */
+
 #include <stdio.h>
 
 int digito_verificador(int numero);
