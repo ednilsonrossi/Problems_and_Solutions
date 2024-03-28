@@ -282,3 +282,7 @@ Desenvolva um programa que leia 5 notas, calcule a média dessas notas e escreva
 ### [Problema 42](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0042)
 
 Desenvolva um programa que leia a idade de um nadador e exiba sua categoria segundo as regras: A(5 até 7); B(8 até 10); C(11 até 13); D(14 até 18) e E( Idade > 18).
+
+### [Problema 43](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0043)
+
+Desenvolva um programa que leia dois números inteiros, uma operação matemática (+,-,*,/) e faça o cálculo destes números segundo a operação lida.
