@@ -303,3 +303,11 @@ Implemente um programa que leia três valores referentes aos lados de um triâng
 - int ehIsosceles(int a, int b, int c);
 - int ehEquilatero(int a, int b, int c);
 - int ehEscaleno(int a, int b, int c).
+
+### [Problema 47](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0047)
+
+Desenvolva um programa que leia dois valores inteiros A e B se os valores forem iguais deverá se somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado para uma variável C e mostrar seu conteúdo na tela.
+
+### [Problema 48](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0048)
+
+Desenvolver um programa que calcule o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo, imprimindo o resultado.
