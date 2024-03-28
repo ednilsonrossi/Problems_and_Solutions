@@ -270,3 +270,7 @@ Desenvolva um programa para ler o ano de nascimento de uma pessoa e o ano atual.
 ### [Problema 39](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0039)
 
 Desenvolva um programa que leia um valor inteiro referente ao tempo de duração em segundos de um determinado evento. O programa deve informar o tempo expresso no formato horas:minutos:segundos.
+
+### [Problema 40](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0040)
+
+Desenvolva um programa que leia 4 números inteiros e encontre a média aritmética dos números pares. Crie, ao menos, 2 funções, uma para calcular a média e outra que informe se um número é par ou não. Lembre-se que não existe divisão por zero.
