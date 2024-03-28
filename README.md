@@ -294,3 +294,12 @@ Desenvolva um programa que leia três números e mostre-os em ordem crescente.
 ### [Problema 45](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0045)
 
 Desenvolva um programa que leia um número inteiro de seis dígitos e informe se este número é um palíndromo ou não.
+
+### [Problema 46](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0046)
+
+Implemente um programa que leia três valores referentes aos lados de um triângulo e informe o tipo deste triângulo. Devem existir quatro funções:
+
+- int ehTriangulo(int a, int b, int c);
+- int ehIsosceles(int a, int b, int c);
+- int ehEquilatero(int a, int b, int c);
+- int ehEscaleno(int a, int b, int c).
