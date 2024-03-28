@@ -286,3 +286,7 @@ Desenvolva um programa que leia a idade de um nadador e exiba sua categoria segu
 ### [Problema 43](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0043)
 
 Desenvolva um programa que leia dois números inteiros, uma operação matemática (+,-,*,/) e faça o cálculo destes números segundo a operação lida.
+
+### [Problema 44](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0044)
+
+Desenvolva um programa que leia três números e mostre-os em ordem crescente.
