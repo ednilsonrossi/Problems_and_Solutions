@@ -274,3 +274,7 @@ Desenvolva um programa que leia um valor inteiro referente ao tempo de duração
 ### [Problema 40](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0040)
 
 Desenvolva um programa que leia 4 números inteiros e encontre a média aritmética dos números pares. Crie, ao menos, 2 funções, uma para calcular a média e outra que informe se um número é par ou não. Lembre-se que não existe divisão por zero.
+
+### [Problema 41](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0041)
+
+Desenvolva um programa que leia 5 notas, calcule a média dessas notas e escreva Reprovado (média < 5), Recuperação (média >= 5 e <7) ou Aprovado (média > 7).

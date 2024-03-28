@@ -1,3 +1,8 @@
+/*
+ * Elaborado por: Ednilson G Rossi
+ * linktr.ee/ednilsonrossi
+ */
+
 #include <stdio.h>
 
 /* Função realiza a leitura de um inteiro e retorna o valor lido. */
