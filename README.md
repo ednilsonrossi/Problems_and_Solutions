@@ -290,3 +290,7 @@ Desenvolva um programa que leia dois números inteiros, uma operação matemáti
 ### [Problema 44](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0044)
 
 Desenvolva um programa que leia três números e mostre-os em ordem crescente.
+
+### [Problema 45](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0045)
+
+Desenvolva um programa que leia um número inteiro de seis dígitos e informe se este número é um palíndromo ou não.
