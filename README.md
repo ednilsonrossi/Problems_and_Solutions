@@ -278,3 +278,7 @@ Desenvolva um programa que leia 4 números inteiros e encontre a média aritmét
 ### [Problema 41](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0041)
 
 Desenvolva um programa que leia 5 notas, calcule a média dessas notas e escreva Reprovado (média < 5), Recuperação (média >= 5 e <7) ou Aprovado (média > 7).
+
+### [Problema 42](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0042)
+
+Desenvolva um programa que leia a idade de um nadador e exiba sua categoria segundo as regras: A(5 até 7); B(8 até 10); C(11 até 13); D(14 até 18) e E( Idade > 18).
