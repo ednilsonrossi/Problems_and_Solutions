@@ -311,3 +311,7 @@ Desenvolva um programa que leia dois valores inteiros A e B se os valores forem 
 ### [Problema 48](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0048)
 
 Desenvolver um programa que calcule o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo, imprimindo o resultado.
+
+### [Problema 49](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0049)
+
+Desenvolva um programa que leia dois valores do tipo float. O programa deve apresentar qual o maior valor dentre os dois valores digitados. Para descobrir qual o maior valor deve-se implementar a função maximo() que recebe dois argumentos e retorna o maior deles.
