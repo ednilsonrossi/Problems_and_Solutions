@@ -244,6 +244,10 @@ Desenvolva um programa que calcule a [média ponderada](https://brasilescola.uol
 
 O programa deve obter as notas e calcular a mostrar a média do aluno.
 
+#### [Problema 33.1 - Este é um problema derivado](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0033)
+
+O sistema de avaliação de determinada disciplina, é composto por três provas. A primeira prova tem peso 2, a segunda tem peso 3 e a terceira tem peso 5. Desenvolva um programa que calcule a média final de um aluno na disciplina. A função calcular_media() recebe as três notas das provas e retorna a média do estudante, contudo caso alguma nota seja inválida, ou seja, fora do intervalo [0..10] a função retorna um valor negativo. O programa deve apresentar a média do estudante ou uma mensagem de erro.
+
 ### [Problema 34](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0034)
 
 Desenvolva um programa para ler o número de votos brancos, nulos e válidos. Calcular e escrever o total de votos (total de eleitores) e o percentual que cada um representa em relação ao total de eleitores.
