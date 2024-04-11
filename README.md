@@ -315,3 +315,11 @@ Desenvolver um programa que calcule o dobro de um número caso ele seja positivo
 ### [Problema 49](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0049)
 
 Desenvolva um programa que leia dois valores do tipo float. O programa deve apresentar qual o maior valor dentre os dois valores digitados. Para descobrir qual o maior valor deve-se implementar a função maximo() que recebe dois argumentos e retorna o maior deles.
+
+### [Problema 50](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0050)
+
+Desenvolva um programa que leia um valor inteiro N. O programa deve chamar a função categoria() passando como argumento o valor lido. A função categoria() imprime na tela uma das seguintes mensagens: “F1”, “F2” ou “F3”, conforme a condição:
+
+- “F1”, se o argumento <= 10;
+- “F2”, se o argumento > 10 e o argumento <= 100;
+- “F3”, se o argumento > 100.

@@ -1,3 +1,8 @@
+/*
+ * Elaborado por: Ednilson G Rossi
+ * linktr.ee/ednilsonrossi
+ */
+
 #include <stdio.h>
 
 float maximo(float arg_1, float arg_2);
