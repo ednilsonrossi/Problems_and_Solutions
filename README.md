@@ -2,6 +2,12 @@
 
 Este repositório compartilha soluções de problemas computacionais utilizados no ensino de lógica, linguagens e paradgimas de programação. Os enunciados dos problemas têm origem em livros, artigos e sites de diversos autores. Selecione o problema e acesse a solução.
 
+## Classificação
+
+- (BP)  - Programação Básica / Introdutória
+- (DS)  - Estruturas de Dados
+- (OOP) - Programação Orientada a Objetos
+
 
 ## Problemas
 
@@ -281,25 +287,37 @@ Desenvolva um programa que leia 4 números inteiros e encontre a média aritmét
 
 ### [Problema 41](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0041)
 
+**CLASSIFICAÇÃO**: (BP)
+
 Desenvolva um programa que leia 5 notas, calcule a média dessas notas e escreva Reprovado (média < 5), Recuperação (média >= 5 e <7) ou Aprovado (média > 7).
 
 ### [Problema 42](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0042)
+
+**CLASSIFICAÇÃO**: (BP)
 
 Desenvolva um programa que leia a idade de um nadador e exiba sua categoria segundo as regras: A(5 até 7); B(8 até 10); C(11 até 13); D(14 até 18) e E( Idade > 18).
 
 ### [Problema 43](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0043)
 
+**CLASSIFICAÇÃO**: (BP)
+
 Desenvolva um programa que leia dois números inteiros, uma operação matemática (+,-,*,/) e faça o cálculo destes números segundo a operação lida.
 
 ### [Problema 44](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0044)
+
+**CLASSIFICAÇÃO**: (BP)
 
 Desenvolva um programa que leia três números e mostre-os em ordem crescente.
 
 ### [Problema 45](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0045)
 
+**CLASSIFICAÇÃO**: (BP)
+
 Desenvolva um programa que leia um número inteiro de seis dígitos e informe se este número é um palíndromo ou não.
 
 ### [Problema 46](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0046)
+
+**CLASSIFICAÇÃO**: (BP)
 
 Implemente um programa que leia três valores referentes aos lados de um triângulo e informe o tipo deste triângulo. Devem existir quatro funções:
 
@@ -310,20 +328,34 @@ Implemente um programa que leia três valores referentes aos lados de um triâng
 
 ### [Problema 47](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0047)
 
+**CLASSIFICAÇÃO**: (BP)
+
 Desenvolva um programa que leia dois valores inteiros A e B se os valores forem iguais deverá se somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se atribuir o resultado para uma variável C e mostrar seu conteúdo na tela.
 
 ### [Problema 48](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0048)
+
+**CLASSIFICAÇÃO**: (BP)
 
 Desenvolver um programa que calcule o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo, imprimindo o resultado.
 
 ### [Problema 49](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0049)
 
+**CLASSIFICAÇÃO**: (BP)
+
 Desenvolva um programa que leia dois valores do tipo float. O programa deve apresentar qual o maior valor dentre os dois valores digitados. Para descobrir qual o maior valor deve-se implementar a função maximo() que recebe dois argumentos e retorna o maior deles.
 
 ### [Problema 50](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0050)
+
+**CLASSIFICAÇÃO**: (BP)
 
 Desenvolva um programa que leia um valor inteiro N. O programa deve chamar a função categoria() passando como argumento o valor lido. A função categoria() imprime na tela uma das seguintes mensagens: “F1”, “F2” ou “F3”, conforme a condição:
 
 - “F1”, se o argumento <= 10;
 - “F2”, se o argumento > 10 e o argumento <= 100;
 - “F3”, se o argumento > 100.
+
+### [Problema 51](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051)
+
+**CLASSIFICAÇÃO**: (DS); (OOP)
+
+Desenvolva um programa que calcule a média aritmética de N números racionais.
