@@ -359,3 +359,13 @@ Desenvolva um programa que leia um valor inteiro N. O programa deve chamar a fun
 **CLASSIFICAÇÃO**: (DS); (OOP)
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
+
+### [Problema 52](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0052)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Desenvolva um programa para o jogo “pedra-papel-tesoura”. O jogo deve imprimir “vitória”, “empate” ou “derrota” conforme a opção que o jogador escolher e a opção que for escolhida aleatoriamente pelo computador. A regra do jogo indica que:
+
+- pedra ganha de tesoura;
+- tesoura ganha de papel;
+- papel ganha de pedra.
