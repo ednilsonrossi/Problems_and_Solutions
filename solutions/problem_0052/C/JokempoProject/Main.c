@@ -1,3 +1,10 @@
+/*
+ * Elaborado por: Ednilson G Rossi
+ * linktr.ee/ednilsonrossi
+ */
+
+
+
 /**
  * Bibliotecas utilizadas na solução do problema.
 */
