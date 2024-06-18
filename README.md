@@ -369,3 +369,18 @@ Desenvolva um programa para o jogo “pedra-papel-tesoura”. O jogo deve imprim
 - pedra ganha de tesoura;
 - tesoura ganha de papel;
 - papel ganha de pedra.
+
+### [Problema 53](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0053)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Um hotel cobra R$ 120,00 a diária e mais uma taxa de serviços. A taxa de serviços segue os seguintes critérios:
+
+- R$ 5,50 por diária, se o número de diárias for maior que 15;
+- R$ 6,00 por diária, se o número de diárias for igual a 15;
+- R$ 8,00 por diária, se o número de diárias for menor que 15.
+
+Com essas informações desenvolva um programa que calcule a conta de um cliente. Deve-se implementas as funções:
+
+- taxa_servico(): essa função recebe a quantidade de dias de hospedagem e retorna o valor unitário da taxa de serviço de acordo com a regra de negócio;
+- conta_cliente(): essa função recebe como argumento a quantidade de diárias e o valor referente a uma diária de taxa de serviço. A função calcula e apresenta um relatório contendo a descrição do valor da hospedagem, da taxa de serviço proporcional e o valor total a pagar.
