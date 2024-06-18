@@ -384,3 +384,9 @@ Com essas informações desenvolva um programa que calcule a conta de um cliente
 
 - taxa_servico(): essa função recebe a quantidade de dias de hospedagem e retorna o valor unitário da taxa de serviço de acordo com a regra de negócio;
 - conta_cliente(): essa função recebe como argumento a quantidade de diárias e o valor referente a uma diária de taxa de serviço. A função calcula e apresenta um relatório contendo a descrição do valor da hospedagem, da taxa de serviço proporcional e o valor total a pagar.
+
+### [Problema 54](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0054)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Desenvolva um programa que lê dois valores inteiros A e B e escreve uma mensagem indicando se A e B são múltiplos ou se A e B não são múltiplos.
