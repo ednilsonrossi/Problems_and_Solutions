@@ -390,3 +390,24 @@ Com essas informações desenvolva um programa que calcule a conta de um cliente
 **CLASSIFICAÇÃO**: (BP)
 
 Desenvolva um programa que lê dois valores inteiros A e B e escreve uma mensagem indicando se A e B são múltiplos ou se A e B não são múltiplos.
+
+### [Problema 55](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0055)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Desenvolva um programa que lê a data de aniversário de uma pessoa no formato DDMM, onde DD indica o dia de nascimento e MM indica o mês de nascimento. O programa deve informar ao usuário qual o seu signo do zodíaco, considerando:
+
+- Aquário: de 21/jan a 19/fev;
+- Peixes: de 20/fev a 20/mar;
+- Áries: de 21/mar a 20/abr;
+- Touro: de 21/abr a 20/mai;
+- Gêmeos: de 21/mai a 20/jun;
+- Câncer: de 21/jun a 21/jul;
+- Leão: de 22/jul a 22/ago;
+- Virgem: de 23/ago a 22/set;
+- Libra: de 23/set a 22/out;
+- Escorpião: de 23/out a 21/nov;
+- Sagitário: de 22/nov a 21/dez;
+- Capricórnio: de 22/dez a 20/jan.
+
+O programa não deve permitir que sejam inseridas datas inválidas, ou seja, mês fora do intervalo de 1 a 12 e dia fora do intervalo de 1 a 31. Em caso de dado inválido apresentar mensagem.
