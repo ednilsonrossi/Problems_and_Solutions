@@ -442,3 +442,9 @@ Por exemplo, o número 1841 é utilizado normalmente como 18414, onde o 4 é o d
 2. Calcula-se o resto da divisão desta soma por 11: 51%11 = 7
 3. Subtrai-se de 11 o resto obtido: 11−7 = 4
 4. Se o valor obtido for 10 ou 11, o dígito verificador será o 0, nos outros casos, o dígito verificador é o próprio valor encontrado.
+
+### [Problema 59](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0059)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Desenvolva um programa que peça para o usuário fornecer um número inteiro. Use uma estrutura de seleção para verificar se o número é igual a 2, ou 4, ou 6, ou 8. Caso seja um desses números, exiba uma mensagem informando ao usuário o número que foi digitado. Caso não seja nenhum dos números esperados, informe o usuário que o valor inserido é inválido.
