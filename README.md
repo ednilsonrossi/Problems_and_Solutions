@@ -422,7 +422,9 @@ O programa não deve permitir que sejam inseridas datas inválidas, ou seja, mê
 
 **CLASSIFICAÇÃO**: (BP)
 
-Desenvolva um programa que receba três valores inteiros e apresente o maior deles na tela. É necessário utilizar a função maior para obter o valor do maior número. Segue a assinatura da função: ` float maior(float arg1, float arg2); `
+Desenvolva um programa que receba três valores inteiros e apresente o maior deles na tela. É necessário utilizar a função maior para obter o valor do maior número. Segue a assinatura da função: 
+
+` float maior(float arg1, float arg2); `
 
 ### [Problema 58](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0058)
 
