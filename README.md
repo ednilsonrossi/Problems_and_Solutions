@@ -448,3 +448,9 @@ Por exemplo, o número 1841 é utilizado normalmente como 18414, onde o 4 é o d
 **CLASSIFICAÇÃO**: (BP)
 
 Desenvolva um programa que peça para o usuário fornecer um número inteiro. Use uma estrutura de seleção para verificar se o número é igual a 2, ou 4, ou 6, ou 8. Caso seja um desses números, exiba uma mensagem informando ao usuário o número que foi digitado. Caso não seja nenhum dos números esperados, informe o usuário que o valor inserido é inválido.
+
+### [Problema 60](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0060)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Desenvolva um programa que leia a idade de dois homens e duas mulheres, todos valores inteiros. Calcule e escreva a soma das idades do homem mais velho com a mulher mais nova e o produto das idades do homem mais novo com a mulher mais velha.
