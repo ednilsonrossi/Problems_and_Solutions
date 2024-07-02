@@ -411,3 +411,32 @@ Desenvolva um programa que lê a data de aniversário de uma pessoa no formato D
 - Capricórnio: de 22/dez a 20/jan.
 
 O programa não deve permitir que sejam inseridas datas inválidas, ou seja, mês fora do intervalo de 1 a 12 e dia fora do intervalo de 1 a 31. Em caso de dado inválido apresentar mensagem.
+
+### [Problema 56](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0056)
+
+**CLASSIFICAÇÃO**: (BP)
+
+ Desenvolva um programa que leia 5 valores inteiros e imprima para cada um o ser valor absoluto. Deve-se obter o valor absoluto com o uso de uma função.
+
+### [Problema 57](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0057)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Desenvolva um programa que receba três valores inteiros e apresente o maior deles na tela. É necessário utilizar a função maior para obter o valor do maior número. Segue a assinatura da função: ` float maior(float arg1, float arg2); `
+
+### [Problema 58](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0058)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Desenvolva um programa que leia um valor inteiro de 1 a 9999 e imprima o seu dígito verificador. Para obter o valor do dígito verificador utilize a função “calcula_digito”. Caso seja fornecido um número fora da faixa estabelecida, o programa deve ser encerrado sem apresentar nenhuma mensagem. Segue a assinatura da função e sua descrição:
+
+` int calcula_digito(int n); `
+
+Calcula o dígito verificador de um número. Para evitar erros de digitação em números de grande importância, como código de uma conta bancária, geralmente se adiciona ao número um dígito verificador.
+
+Por exemplo, o número 1841 é utilizado normalmente como 18414, onde o 4 é o dígito verificador. Ele é calculado da seguinte forma:
+
+1. Cada algarismo do número é multiplicado por um peso começando em 2, da direita para a esquerda. Para cada algarismo o peso é acrescido de 1. Soma-se então os produtos obtidos. Exemplo: 1∗5 + 8∗4 + 4∗3 + 1∗2 = 51
+2. Calcula-se o resto da divisão desta soma por 11: 51%11 = 7
+3. Subtrai-se de 11 o resto obtido: 11−7 = 4
+4. Se o valor obtido for 10 ou 11, o dígito verificador será o 0, nos outros casos, o dígito verificador é o próprio valor encontrado.
