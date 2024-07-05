@@ -454,3 +454,29 @@ Desenvolva um programa que peça para o usuário fornecer um número inteiro. Us
 **CLASSIFICAÇÃO**: (BP)
 
 Desenvolva um programa que leia a idade de dois homens e duas mulheres, todos valores inteiros. Calcule e escreva a soma das idades do homem mais velho com a mulher mais nova e o produto das idades do homem mais novo com a mulher mais velha.
+
+### [Problema 61](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0061)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Considerando que a legislação indica os seguintes critérios para ser eleitor:
+
+- Brasileiro menor de 16 anos não pode votar.
+- Brasileiro com idade entre 16 e 18 anos tem voto facultativo.
+- Brasileiro maior de 18 anos tem voto obrigatório.
+
+Desenvolva um programa que leia a idade de um cidadão brasileiro e informe se ele é eleitor ou não.
+
+#### Problema 61 (b)
+
+Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é eleitora ou não.
+
+#### Problema 61 (c)
+
+Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é eleitora ou não. Ao final, apresentar a quantidade de eleitores lidos.
+
+### [Problema 62](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0062)
+
+**CLASSIFICAÇÃO**: (BP)
+
+Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
