@@ -375,7 +375,7 @@ Desenvolver um programa que leia uma quantidade indefinida de valores reais e ap
 
 ### [Problema 63](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0063)
 
-Desenvolva um programa que apresente os 20 primeiros termos da sequência de Fibonacci.
+Desenvolva um programa que apresente os 20 primeiros termos da [Série de Fibonacci](https://www.todamateria.com.br/sequencia-de-fibonacci/).
 
 - 1º termo: 0
 - 2º termo: 1
@@ -389,7 +389,7 @@ Desenvolva um programa que apresente os 20 primeiros termos da sequência de Fib
 
 ### [Problema 64](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0064)
 
-Desenvolva um programa que gere os 30 primeiros termos de uma série tal qual a de Fibonacci, mas que cujos 2 primeiros termos são fornecidos pelo usuário.
+A série de Ricci difere da série de Fibinacci porque os dois primeiros termos são fornecidos pelo usuário. Os demais termos são gerados da mesma forma que a série de Fibonacci, ou seja, os demais termos são sempre a soma dos dois termos anteriores. Desenvolva um programa que apresente os 30 primeiros termos da série de Ricci.
 
 ### [Problema 65](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0065)
 
