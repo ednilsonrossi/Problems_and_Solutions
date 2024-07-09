@@ -391,6 +391,10 @@ Desenvolva um programa que apresente os 20 primeiros termos da sequência de Fib
 
 Desenvolva um programa que gere os 30 primeiros termos de uma série tal qual a de Fibonacci, mas que cujos 2 primeiros termos são fornecidos pelo usuário.
 
+### [Problema 65](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0065)
+
+A conversão de graus Fahrenheit para Celsius é obtida pela fórmula C = 5/9(F-32). Desenvolva um programa que apresente uma tabela de graus Celsius em função de graus Fahrenheit que variem de 50F a 150F de 1 em 1.
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
