@@ -2,16 +2,19 @@
 
 Este repositório compartilha soluções de problemas computacionais utilizados no ensino de lógica, linguagens e paradgimas de programação. Os enunciados dos problemas têm origem em livros, artigos e sites de diversos autores. Selecione o problema e acesse a solução.
 
-## Classificação
+## Índice
 
-- (BP)  - Programação Básica / Introdutória
-- (DS)  - Estruturas de Dados
-- (OOP) - Programação Orientada a Objetos
-
+- [Programação Básica: Estrutura Sequêncial](#ancora1)
+- [Programação Básica: Estrutura Condicional e de Seleção](#ancora2)
+- [Programação Básica: Estrutura de Repetição](#ancora3)
+- [Programação Básica: Modularização](#ancora4)
+- [Programação Orientada a Objetos](#ancora5)
+- [Estruturas de Dados](#ancora6)
 
 ## Problemas
 
-## Programação Básica: Estrutura Sequencial
+<a id="ancora1"></a>
+## Programação Básica: Estrutura Sequêncial
 
 ### [Problema 15](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0015)
 
@@ -163,6 +166,7 @@ Desenvolva um programa para ler o ano de nascimento de uma pessoa e o ano atual.
 - A idade dessa pessoa, após seu aniversário no ano atual;
 - A idade dessa pessoa no ano de 2052.
 
+<a id="ancora2"></a>
 ## Programação Básica: Estrutura Condicional e de Seleção
 
 ### [Problema 1](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0001)
@@ -306,6 +310,7 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 
 Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
 
+<a id="ancora3"></a>
 ## Programação Básica: Estrutura de Repetição
 
 ### [Problema 3](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0003)
@@ -382,6 +387,7 @@ Desenvolva um programa que apresente os 20 primeiros termos da sequência de Fib
 - 8º termo: 13
 - ....
 
+<a id="ancora4"></a>
 ## Programação Básica: Modularização
 
 ### [Problema 2](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0002)
@@ -629,6 +635,7 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 
 Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
 
+<a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
 ### [Problema 9](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0009)
@@ -717,6 +724,7 @@ Desenvolva um sistema orientado a objetos que gerencie tarefas, utilizando o pad
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
 
+<a id="ancora6"></a>
 ## Estruturas de Dados
 
 ### [Problema 51](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051)
