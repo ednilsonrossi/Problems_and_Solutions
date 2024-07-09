@@ -1,3 +1,8 @@
+/*
+ * Elaborado por: Ednilson G Rossi
+ * linktr.ee/ednilsonrossi
+ */
+
 #include <stdio.h>
 
 int maior(int arg1, int arg2);

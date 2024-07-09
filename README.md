@@ -368,6 +368,20 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 
 Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
 
+### [Problema 63](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0063)
+
+Desenvolva um programa que apresente os 20 primeiros termos da sequência de Fibonacci.
+
+- 1º termo: 0
+- 2º termo: 1
+- 3º termo: 1
+- 4º termo: 2
+- 5º termo: 3
+- 6º termo: 5
+- 7º termo: 8
+- 8º termo: 13
+- ....
+
 ## Programação Básica: Modularização
 
 ### [Problema 2](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0002)
