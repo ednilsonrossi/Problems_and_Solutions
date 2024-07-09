@@ -306,10 +306,6 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 
 Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é eleitora ou não. Ao final, apresentar a quantidade de eleitores lidos.
 
-### [Problema 62](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0062)
-
-Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
-
 <a id="ancora3"></a>
 ## Programação Básica: Estrutura de Repetição
 
@@ -368,6 +364,10 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 #### Problema 61 (c)
 
 Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é eleitora ou não. Ao final, apresentar a quantidade de eleitores lidos.
+
+### [Problema 62](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0062)
+
+Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
 
 ### [Problema 63](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0063)
 
