@@ -369,10 +369,6 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 
 Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é eleitora ou não. Ao final, apresentar a quantidade de eleitores lidos.
 
-### [Problema 62](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0062)
-
-Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
-
 ### [Problema 63](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0063)
 
 Desenvolva um programa que apresente os 20 primeiros termos da [Série de Fibonacci](https://www.todamateria.com.br/sequencia-de-fibonacci/).
