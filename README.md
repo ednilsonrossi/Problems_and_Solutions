@@ -391,6 +391,14 @@ A série de Ricci difere da série de Fibinacci porque os dois primeiros termos 
 
 A conversão de graus Fahrenheit para Celsius é obtida pela fórmula C = 5/9(F-32). Desenvolva um programa que apresente uma tabela de graus Celsius em função de graus Fahrenheit que variem de 50F a 150F de 1 em 1.
 
+### [Problema 66](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0066)
+
+Desenvolva um programa que apresente a tabuada de um valor indicado pelo usuário.
+
+#### Problema 66 (b)
+
+Desenvolva um programa que apresenta a tabuada dos números de 1 a 10.
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
