@@ -345,7 +345,9 @@ Desenvolva um programa para ler N valores inteiros, sendo N fornecido pelo usuá
 
 Desenvolva um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
 
-[//]: # (------------------------------------)
+#### Problema 8 (b)
+
+Desenvolva um programa que leia um valor N que indica quantos inteiros e positivos devem ser lidos a seguir. Para cada número lido, apresente o fatorial do número.
 
 ### [Problema 61](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0061)
 
