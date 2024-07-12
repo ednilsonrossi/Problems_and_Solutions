@@ -401,6 +401,21 @@ Desenvolva um programa que apresente a tabuada de um valor indicado pelo usuári
 
 Desenvolva um programa que apresenta a tabuada dos números de 1 a 10.
 
+### [Problema 67](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0067)
+
+Desenvolva um programa que receba duas notas de nove alunos. O programa calcula e mostra:
+
+- A média aritmética das duas notas de cada aluno;
+- Mensagem com a situação do aluno (até 3 reprovado, entre 3 e 7 exame e de 7 para cima aprovado);
+- Quantidade de alunos aprovados;
+- Quantidade de alunos de exame;
+- Quantidade de alunos reprovados;
+- Média da classe.
+
+### [Problema 68](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0068)
+
+Desenvolva um programa que recebe do usuário um número inteiro, maior que 1, e informa se esse número é primo ou não. Lembrando que um número é primo quando é divisível apenas por 1 e por ele mesmo.
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
