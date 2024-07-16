@@ -416,6 +416,10 @@ Desenvolva um programa que receba duas notas de nove alunos. O programa calcula 
 
 Desenvolva um programa que recebe do usuário um número inteiro, maior que 1, e informa se esse número é primo ou não. Lembrando que um número é primo quando é divisível apenas por 1 e por ele mesmo.
 
+### [Problema 69](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0069)
+
+Desenvolva um programa que leia um número não determinado de pares de valores [m, n], todos inteiros e positivos, um par de cada vez, e que mostre a soma de todos os números inteiros entre m e n (inclusive). A digitação de pares terminará quando m for maior ou igual a n.
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
