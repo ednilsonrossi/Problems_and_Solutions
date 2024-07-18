@@ -432,6 +432,22 @@ Um aluno requisitou ao professor o arredondamento da nota final da disciplina e 
 
 Desenvolva um programa que imprime todas as combinações de lançamento de dois dados quando a soma dos dados resulta no valor 7.
 
+### [Problema 72](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0072)
+
+Em uma eleição do diretório acadêmico existem 4 chapas candidatas. Os votos são informados por código. Os dados utilizados para escrutinagem obedecem a seguinte codificação:
+
+- 1, 2, 3 e 4 -> votos para as respectivas chapas;
+- 5 -> voto nulo;
+- 6 -> voto em branco.
+
+Desenvolva um programa que calcule e escreva:
+
+- O total de votos para cada chapa e seu porcentual sobre o total;
+- O total de votos nulos e seu percentual sobre o total;
+- O total de votos brancos e seu percentual sobre o total;
+
+Como finalizador do conjunto de votos, tem-se o valor 0 (zero).
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
