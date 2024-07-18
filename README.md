@@ -424,6 +424,10 @@ Desenvolva um programa que leia um número não determinado de pares de valores 
 
 Um aluno requisitou ao professor o arredondamento da nota final da disciplina e disse que pagaria qualquer preço. O professor pergunta ao aluno se o pagamento pode ser feito em moedas de R$ 0,25 dispostas em um tabuleiro de xadrez, de tal forma que o primeiro quadro contivesse apenas uma moeda, e os quadros subsequentes, o dobro de moedas do quadro anterior. Desenvolva um programa para ajudar o aluno a determinar o valor sugerido pelo professor, mesmo sabendo que o professor nunca arredondaria uma nota.
 
+### [Problema 71](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0071)
+
+Desenvolva um programa que imprime todas as combinações de lançamento de dois dados quando a soma dos dados resulta no valor 7.
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
