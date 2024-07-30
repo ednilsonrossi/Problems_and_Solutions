@@ -385,6 +385,16 @@ Desenvolva um programa que apresente os 20 primeiros termos da [Série de Fibona
 - 8º termo: 13
 - ....
 
+#### Problema 63 (b)
+
+Desenvolva um programa que calcule o n-ésimo termo da sequência de Fibonacci utilizando uma função recursiva.
+
+Definição as sequência de Fibonacci:
+
+F(0) = 0
+F(1) = 1
+F(n) = F(n-1) + F(n-2) para n > 1
+
 ### [Problema 64](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0064)
 
 A série de Ricci difere da série de Fibinacci porque os dois primeiros termos são fornecidos pelo usuário. Os demais termos são gerados da mesma forma que a série de Fibonacci, ou seja, os demais termos são sempre a soma dos dois termos anteriores. Desenvolva um programa que apresente os 30 primeiros termos da série de Ricci.
