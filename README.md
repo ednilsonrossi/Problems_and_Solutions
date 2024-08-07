@@ -8,6 +8,7 @@ Este repositório compartilha soluções de problemas computacionais utilizados 
 - [Programação Básica: Estrutura Condicional e de Seleção](#ancora2)
 - [Programação Básica: Estrutura de Repetição](#ancora3)
 - [Programação Básica: Modularização](#ancora4)
+- [Programação Básica: Variáveis compostas homogêneas (arrays)](#ancora7)
 - [Programação Orientada a Objetos](#ancora5)
 - [Estruturas de Dados](#ancora6)
 
@@ -705,6 +706,15 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 ### [Problema 62](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0062)
 
 Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
+
+<a id="ancora7"></a>
+## Programação Básica: Variáveis compostas homogêneas (arrays)
+
+### [Problema 73](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0073)
+
+Desenvolva um programa que preencha um array de números inteiros de 5 posições com valores fornecidos pelo usuário. Logo em seguida, o programa deve pedir um valor inteiro ao usuário. O programa deve apresentar ao usuário a mensagem “ACHEI” caso o valor seja encontrado em um determinado índice ou “NÃO ACHEI” caso contrário.
+
+![Exemplo](https://github.com/ednilsonrossi/Problems_and_Solutions/blob/main/assets/problem_0073.png?raw=true)
 
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
