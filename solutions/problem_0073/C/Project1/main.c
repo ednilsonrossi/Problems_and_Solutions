@@ -7,8 +7,6 @@ int main(){
     int dataset[MAXSIZE];
     int search;
 
-    printf("\n\nEntrada:\n");
-
     for (int i = 0; i < MAXSIZE; i++){
         printf("Array[%d]: ", i);
         scanf("%d", &dataset[i]);
@@ -17,10 +15,7 @@ int main(){
     printf("Buscar por: ");
     scanf("%d", &search);
 
-    printf("\n\nSaída\n");
-
     find_key(dataset, search);
-
     return 0;
 }
 

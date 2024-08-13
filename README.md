@@ -459,6 +459,11 @@ Desenvolva um programa que calcule e escreva:
 
 Como finalizador do conjunto de votos, tem-se o valor 0 (zero).
 
+### [Problema 74](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0074)
+
+Desenvolva uma função recursiva que determine quantas vezes um digito K ocorre em um número natural N. Por exemplo, o digito 2 ocorre 3 vezes em 762021192.
+
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
