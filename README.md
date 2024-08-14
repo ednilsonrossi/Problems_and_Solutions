@@ -729,6 +729,10 @@ Desenvolva um programa que preencha um array de números inteiros de 5 posiçõe
 
 ![Exemplo](https://github.com/ednilsonrossi/Problems_and_Solutions/blob/main/assets/problem_0073.png?raw=true)
 
+### [Problema 76](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0076)
+
+Desenvolva um programa que  preencha um vetor de 100 posições com valores de 1 a 1000 gerados aleatoriamente. Deve-se ler do usuário 7 números inteiros que são armazenados em um segundo vetor. O programa deve verificar quantos valores do segundo vetor estão presentes no vetor gerado.
+
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
