@@ -398,7 +398,7 @@ F(n) = F(n-1) + F(n-2) para n > 1
 
 ### [Problema 64](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0064)
 
-A série de Ricci difere da série de Fibinacci porque os dois primeiros termos são fornecidos pelo usuário. Os demais termos são gerados da mesma forma que a série de Fibonacci, ou seja, os demais termos são sempre a soma dos dois termos anteriores. Desenvolva um programa que apresente os 30 primeiros termos da série de Ricci.
+A série de Ricci difere da série de Fibonacci porque os dois primeiros termos são fornecidos pelo usuário. Os demais termos são gerados da mesma forma que a série de Fibonacci, ou seja, os demais termos são sempre a soma dos dois termos anteriores. Desenvolva um programa que apresente os 30 primeiros termos da série de Ricci.
 
 ### [Problema 65](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0065)
 
@@ -463,6 +463,14 @@ Como finalizador do conjunto de votos, tem-se o valor 0 (zero).
 
 Desenvolva uma função recursiva que determine quantas vezes um digito K ocorre em um número natural N. Por exemplo, o digito 2 ocorre 3 vezes em 762021192.
 
+### [Problema 75](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0075)
+
+Um problema típico em ciência da computação consiste em converter um número da sua forma decimal para a forma binária. Por exemplo, o número 12 tem a sua representação binária igual a 1100. A forma mais simples de fazer isso é dividir o número sucessivamente por 2, onde o resto da i-ésima divisão vai ser o dígito i do
+número binário (da direita para a esquerda).
+
+Por exemplo: 12 / 2 = 6, resto 0 (1º dígito da direita para esquerda), 6 / 2 = 3, resto 0 (2º dígito da direita para esquerda), 3 / 2 = 1 resto 1 (3º dígito da direita para esquerda), 1 / 2 = 0 resto 1 (4º dígito da direita para esquerda). Resultado: 12 = 1100
+
+Desenvolva um programa com o procedimento recursivo dec_to_bin(n: integer): void, que dado um número decimal imprima a sua representação binária corretamente.
 
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
