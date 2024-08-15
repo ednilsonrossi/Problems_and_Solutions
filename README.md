@@ -741,6 +741,10 @@ Desenvolva um programa que preencha um array de números inteiros de 5 posiçõe
 
 Desenvolva um programa que preencha um array de números inteiros de 50 posições com valores gerados aleatoriamente. O programa deve remover o array todos os elementos que forem pares. Por fim, o programa deve imprimir o array após as remoções.
 
+### [Problema 79](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0079)
+
+Desenvolva um programa que preencham um array de números inteiros de 10 posições com valores fornecidos pelo usuário. O programa deve exibir os números pares desse array em ordem crescente e depois os números ímpares em ordem decrescente.
+
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
