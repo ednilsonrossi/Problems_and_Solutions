@@ -737,6 +737,10 @@ Desenvolva um programa que  preencha um vetor de 100 posições com valores de 1
 
 Desenvolva um programa que preencha um array de números inteiros de 5 posições com valores fornecidos pelo usuário. O primeiro elemento do array deve ser “excluído”, deslocando para isso todos os elementos a partir da segunda posição para a esquerda. Por fim, o programa deve imprimir o array após a remoção.
 
+### [Problema 78](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0078)
+
+Desenvolva um programa que preencha um array de números inteiros de 50 posições com valores gerados aleatoriamente. O programa deve remover o array todos os elementos que forem pares. Por fim, o programa deve imprimir o array após as remoções.
+
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
