@@ -745,6 +745,17 @@ Desenvolva um programa que preencha um array de números inteiros de 50 posiçõ
 
 Desenvolva um programa que preencham um array de números inteiros de 10 posições com valores fornecidos pelo usuário. O programa deve exibir os números pares desse array em ordem crescente e depois os números ímpares em ordem decrescente.
 
+### [Problema 80](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0080)
+
+Uma piscina possui 5 raias, ou seja, permite que 5 nadadores nadem simultaneamente. Foi realizada uma competição entre os 5 nadadores onde foi registrado do tempo, em segundos, que cada nadador demorou para atravessar a piscina. Foram registradas 10 tomadas de tempo.
+
+Desenvolva um programa que leia em vetores as informações das tomadas de tempo de cada um dos nadadores.
+O programa deve informar:
+
+- menor tempo de cada nadador;
+- maior tempo de cada nadador;
+- média de tempo de cada tomada de tempo.
+
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
