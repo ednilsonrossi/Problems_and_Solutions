@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define TIME_SHOTS 2       // Constante define a quantidade de tomadas de
+#define TIME_SHOTS 10       // Constante define a quantidade de tomadas de
                             // tempo.
 
 void input_times(int lane, int arr_lane[], int time_shots);
