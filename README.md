@@ -756,6 +756,10 @@ O programa deve informar:
 - maior tempo de cada nadador;
 - média de tempo de cada tomada de tempo.
 
+### [Problema 81](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0081)
+
+Desenvolva um programa que declare uma matriz de ordem 5x5 de valores do tipo float e inicialize cada posição com o valor 0 (zero). Em seguida o usuário deve digitar o índice da linha e da coluna e o valor da posição. A leitura será feita enquanto os índices (qualquer um deles) não forem negativos. Após a leitura o programa deve imprimir a matriz lida na tela.
+
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
