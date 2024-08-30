@@ -9,6 +9,7 @@ Este repositório compartilha soluções de problemas computacionais utilizados 
 - [Programação Básica: Estrutura de Repetição](#ancora3)
 - [Programação Básica: Modularização](#ancora4)
 - [Programação Básica: Variáveis compostas homogêneas (arrays)](#ancora7)
+- [Programação Básica: Variáveis compostas heterogêneas](#ancora8)
 - [Programação Orientada a Objetos](#ancora5)
 - [Estruturas de Dados](#ancora6)
 
@@ -763,6 +764,13 @@ Desenvolva um programa que declare uma matriz de ordem 5x5 de valores do tipo fl
 ### [Problema 82](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0082)
 
 Desenvolva um programa que declare uma matriz (10x10) e a preencha com valores inteiros gerados aleatoriamente. O programa deve imprimir o maior valor da matriz e em qual posição esse valor está.
+
+<a id="ancora8"></a>
+## Programação Básica: Variáveis compostas heterogêneas
+
+### [Problema 83](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0083)
+
+Desenvolva um programa que armazene placa e velocidade aferida dos veículos que trafegam em uma rodovia. O programa deve calcular a velocidade considerada (7% abaixo da aferida). Ao final apresentar os veículos que estão com excesso de velocidade, e se estiver em excesso, se até 20% ou acima de 20%, para isso considere como máxima a velocidade de 80 km/h.
 
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
