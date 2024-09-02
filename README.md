@@ -773,6 +773,11 @@ Desenvolva um programa que verifique se uma matriz de ordem 5x5 de inteiros é u
 
 Desenvolva um programa que leia uma matriz quadrada de ordem 5 com elementos float. O programa deve gerar dois vetores, um com os elementos da diagonal principal da matriz e outro com os elementos da diagonal secundária da matriz.
 
+### [Problema 86](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0086)
+
+Desenvolva um programa para ler uma matriz quadrada de ordem N, sendo N <=50 informado pelo usuário. Calcular e mostrar o maior e o menor elemento da diagonal principal da matriz.
+
+
 <a id="ancora8"></a>
 ## Programação Básica: Variáveis compostas heterogêneas
 
