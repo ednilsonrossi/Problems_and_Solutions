@@ -765,6 +765,10 @@ Desenvolva um programa que declare uma matriz de ordem 5x5 de valores do tipo fl
 
 Desenvolva um programa que declare uma matriz (10x10) e a preencha com valores inteiros gerados aleatoriamente. O programa deve imprimir o maior valor da matriz e em qual posição esse valor está.
 
+### [Problema 84](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0084)
+
+Desenvolva um programa que verifique se uma matriz de ordem 5x5 de inteiros é uma matriz identidade. Matriz identidade é aquela onde todos os elementos são iguais a zero e a diagonal principal é composta de 1.
+
 <a id="ancora8"></a>
 ## Programação Básica: Variáveis compostas heterogêneas
 
