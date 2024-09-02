@@ -769,6 +769,10 @@ Desenvolva um programa que declare uma matriz (10x10) e a preencha com valores i
 
 Desenvolva um programa que verifique se uma matriz de ordem 5x5 de inteiros é uma matriz identidade. Matriz identidade é aquela onde todos os elementos são iguais a zero e a diagonal principal é composta de 1.
 
+### [Problema 85](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0085)
+
+Desenvolva um programa que leia uma matriz quadrada de ordem 5 com elementos float. O programa deve gerar dois vetores, um com os elementos da diagonal principal da matriz e outro com os elementos da diagonal secundária da matriz.
+
 <a id="ancora8"></a>
 ## Programação Básica: Variáveis compostas heterogêneas
 
