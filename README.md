@@ -785,6 +785,10 @@ Desenvolva um programa para ler uma matriz quadrada de ordem N, sendo N <=50 inf
 
 Desenvolva um programa que armazene placa e velocidade aferida dos veículos que trafegam em uma rodovia. O programa deve calcular a velocidade considerada (7% abaixo da aferida). Ao final apresentar os veículos que estão com excesso de velocidade, e se estiver em excesso, se até 20% ou acima de 20%, para isso considere como máxima a velocidade de 80 km/h.
 
+### [Problema 87](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0087)
+
+Desenvolva um sistema para controlar a portaria de um estacionamento de uma universidade. O sistema deve armazenar marca, modelo, cor, placas de um carro e também nome e prontuário do aluno motorista. O sistema deve permitir dois tipos de busca: busca pela placa do carro e busca pelo prontuário do aluno. A busca é aplicada quando um carro sai do estacionamento.
+
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
