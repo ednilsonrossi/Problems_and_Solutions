@@ -729,6 +729,11 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 
 Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
 
+#### Problema 62 (b)
+
+Desenvolver um programa em programa que leia 10 números do tipo double e apresente a média aritmética desses números.
+
+
 <a id="ancora7"></a>
 ## Programação Básica: Variáveis compostas homogêneas (arrays)
 
