@@ -483,6 +483,10 @@ Desenvolva um programa que apresente os 10 primeiros múltiplos de 3, consideran
 
 Desenvolva um programa que, utilizando a estrutura while, mostre na tela uma contagem regressiva iniciando em 10 e terminando em 0. Mostrar a mensagem “FIM !” após a contagem.
 
+### [Problema 90](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0090)
+
+Desenvolva um programa que leia 20 números inteiros e, ao final, apresente o maior e o menor número lido.
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
@@ -726,10 +730,6 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 #### Problema 61 (c)
 
 Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é eleitora ou não. Ao final, apresentar a quantidade de eleitores lidos.
-
-### [Problema 62](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0062)
-
-Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
 
 <a id="ancora7"></a>
 ## Programação Básica: Variáveis compostas homogêneas (arrays)
