@@ -733,7 +733,6 @@ Desenvolver um programa que leia uma quantidade indefinida de valores reais e ap
 
 Desenvolver um programa em programa que leia 10 números do tipo double e apresente a média aritmética desses números.
 
-
 <a id="ancora7"></a>
 ## Programação Básica: Variáveis compostas homogêneas (arrays)
 
