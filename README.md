@@ -189,8 +189,6 @@ Desenvolva um programa que leia 5 notas, calcule a média dessas notas e escreva
 
 ### [Problema 42](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0042)
 
-
-
 Desenvolva um programa que leia a idade de um nadador e exiba sua categoria segundo as regras: A(5 até 7); B(8 até 10); C(11 até 13); D(14 até 18) e E( Idade > 18).
 
 ### [Problema 43](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0043)
@@ -372,6 +370,10 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 ### [Problema 62](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0062)
 
 Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
+
+#### Problema 62 (b)
+
+Desenvolver um programa em programa que leia 10 números do tipo double e apresente a média aritmética desses números.
 
 ### [Problema 63](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0063)
 
@@ -728,10 +730,6 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 ### [Problema 62](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0062)
 
 Desenvolver um programa que leia uma quantidade indefinida de valores reais e apresente a média aritmética dos valores lidos.
-
-#### Problema 62 (b)
-
-Desenvolver um programa em programa que leia 10 números do tipo double e apresente a média aritmética desses números.
 
 <a id="ancora7"></a>
 ## Programação Básica: Variáveis compostas homogêneas (arrays)
