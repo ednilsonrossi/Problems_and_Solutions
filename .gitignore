@@ -32,3 +32,5 @@ bin/
 ### LINGUAGEM C ###
 output/
 
+### Java ###
+*.class

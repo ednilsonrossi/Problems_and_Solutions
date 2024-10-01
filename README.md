@@ -477,6 +477,10 @@ Desenvolva um programa com o procedimento recursivo dec_to_bin(n: integer): void
 
 Desenvolva um programa que apresente os 10 primeiros múltiplos de 3, considerando números maiores que 0 (zero).
 
+### [Problema 89](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0089)
+
+Desenvolva um programa que, utilizando a estrutura while, mostre na tela uma contagem regressiva iniciando em 10 e terminando em 0. Mostrar a mensagem “FIM !” após a contagem.
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
