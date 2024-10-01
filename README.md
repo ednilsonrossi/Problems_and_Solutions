@@ -491,6 +491,19 @@ Desenvolva um programa que leia 20 números inteiros e, ao final, apresente o ma
 
 Desenvolva um programa que leia uma certa quantidade de números e imprime o maior deles e a quantidade de vezes que o maior foi lido. A quantidade de números a serem lidos deve ser fornecida pelo usuário. (Atenção: não é necessário uso de variável composta)
 
+### [Problema 92](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0092)
+
+Escreva um programa que leia um número inteiro positivo n e em seguida imprima n linhas do chamado Triangulo de Floyd. Para n = 6, temos:
+       
+```
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+16 17 18 19 20 21
+```
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
