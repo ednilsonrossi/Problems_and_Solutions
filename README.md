@@ -473,6 +473,10 @@ Por exemplo: 12 / 2 = 6, resto 0 (1º dígito da direita para esquerda), 6 / 2 =
 
 Desenvolva um programa com o procedimento recursivo dec_to_bin(n: integer): void, que dado um número decimal imprima a sua representação binária corretamente.
 
+### [Problema 88](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0088)
+
+Desenvolva um programa que apresente os 10 primeiros múltiplos de 3, considerando números maiores que 0 (zero).
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
