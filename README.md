@@ -487,6 +487,10 @@ Desenvolva um programa que, utilizando a estrutura while, mostre na tela uma con
 
 Desenvolva um programa que leia 20 números inteiros e, ao final, apresente o maior e o menor número lido.
 
+### [Problema 91](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0091)
+
+Desenvolva um programa que leia uma certa quantidade de números e imprime o maior deles e a quantidade de vezes que o maior foi lido. A quantidade de números a serem lidos deve ser fornecida pelo usuário. (Atenção: não é necessário uso de variável composta)
+
 <a id="ancora4"></a>
 ## Programação Básica: Modularização
 
