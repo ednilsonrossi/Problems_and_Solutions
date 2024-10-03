@@ -823,6 +823,10 @@ Desenvolva um sistema para controlar a portaria de um estacionamento de uma univ
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
+### [Problema 93](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0093)
+
+Desenvolva uma calculadora com duas operações simples: soma e multiplicação. Contudo, a operação multiplicação deve ser realizada a partir de um algoritmo de soma sucessiva (esse algoritmo é conhecido apenas pela classe).
+
 ### [Problema 9](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0009)
 
 Desenvolva um projeto para gerenciar dados de filmes. 
