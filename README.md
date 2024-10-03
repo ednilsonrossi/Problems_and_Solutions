@@ -917,6 +917,10 @@ Desenvolva um sistema orientado a objetos que gerencie tarefas, utilizando o pad
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
 
+### [Problema 95](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0095)
+
+Desenvolva um sistema orientado a objetos que simule um jogo de dados, o qual o jogador lança 2 dados de seis lados. Deve-se construir uma classe Dado que representa um dado. O programa principal deve lançar os dados 3 vezes e apresentar a soma dos números dos dados a cada um dos lances.
+
 <a id="ancora6"></a>
 ## Estruturas de Dados
 
