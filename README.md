@@ -434,6 +434,10 @@ Desenvolva um programa que recebe do usuário um número inteiro, maior que 1, e
 
 Desenvolva um programa que imprima todos os números primos existentes entre N1 e N2, em que N1 e N2 são números inteiros fornecidos pelo usuário.
 
+#### Problema 68 (c)
+
+Desenvolva um programa que leia um inteiro não negativo n e imprima a lista dos n primeiros números primos. 
+
 ### [Problema 69](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0069)
 
 Desenvolva um programa que leia um número não determinado de pares de valores [m, n], todos inteiros e positivos, um par de cada vez, e que mostre a soma de todos os números inteiros entre m e n (inclusive). A digitação de pares terminará quando m for maior ou igual a n.

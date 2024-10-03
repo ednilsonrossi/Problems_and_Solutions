@@ -1,36 +1,80 @@
-### IntelliJ IDEA ###
+# IntelliJ IDEA
 .idea/
+*.iws
+*.iml
+*.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+target/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# IntelliJ specific to Kotlin
+*.class
+*.jar
+*.war
+*.ear
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# VSCode
 .vscode/
 
-### Mac OS ###
-.DS_Store
-
-### LINGUAGEM C ###
-output/
-
-### Java ###
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.log
 *.class
+*.swp
+
+# Maven
+target/
+*.war
+*.ear
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+
+# Bytecode and classpath files
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.exe
+*.so
+*.dylib
+*.o
+*.obj
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Kotlin specific
+*.kotlin_metadata
+
+# C/C++ specific
+*.out
+*.d
+*.a
+*.lib
+*.lo
+*.la
+*.lai
+*.slo
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Build output
+/build/
+dist/
