@@ -436,7 +436,7 @@ Desenvolva um programa que imprima todos os números primos existentes entre N1 
 
 #### Problema 68 (c)
 
-Desenvolva um programa que leia um inteiro não negativo n e imprima a lista dos n primeiros números primos. 
+Desenvolva um programa que leia um inteiro não negativo n e imprima a lista dos n primeiros números primos.
 
 ### [Problema 69](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0069)
 
