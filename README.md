@@ -927,3 +927,7 @@ Desenvolva um sistema orientado a objetos que simule um jogo de dados, o qual o 
 ### [Problema 51](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051)
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
+
+### [Problema 96](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051) (Ponteiros)
+
+Desenvolva um sistema que leia os valores de uma equação do 2º grau (a, b e c) e apresente os possíveis resultados. O programa deve utilizar função com retorno void, de forma que os resultados sejam obtidos por passagem de parâmetro por referência. Atenção, a leitura de dados e impressão de resultados deve ser realizada na função principal - main().
