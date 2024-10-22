@@ -928,6 +928,32 @@ Desenvolva um sistema orientado a objetos que simule um jogo de dados, o qual o 
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
 
-### [Problema 96](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051) (Ponteiros)
+### [Problema 96](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0096) Ponteiros/Referências
 
 Desenvolva um sistema que leia os valores de uma equação do 2º grau (a, b e c) e apresente os possíveis resultados. O programa deve utilizar função com retorno void, de forma que os resultados sejam obtidos por passagem de parâmetro por referência. Atenção, a leitura de dados e impressão de resultados deve ser realizada na função principal - main().
+
+### [Problema 97](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0097) Ponteiros/Referências
+
+Desenvolva a função length_string(), conforme programa apresentado abaixo. A função calcula o tamanho de uma string.
+
+```
+#include <stdio.h>
+
+void length_string(char*, int*);
+
+int main(int argc, char const *argv[])
+{
+    char string[] = "Essa é uma string de tamanho 33.";
+    int tamanho;
+
+    length_string(string, &tamanho);
+    printf("A string \n\t%s\n\tpossui tamanho igual a %d.\n\n", string, tamanho);
+
+    return 0;
+}
+
+void length_string(char* str, int* size){
+    //TODO: implementar função.
+}
+```
+
