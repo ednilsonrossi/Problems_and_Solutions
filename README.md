@@ -941,7 +941,7 @@ Desenvolva a função length_string(), conforme programa apresentado abaixo. A f
 
 void length_string(char*, int*);
 
-int main(int argc, char const *argv[])
+int main()
 {
     char string[] = "Essa é uma string de tamanho 33.";
     int tamanho;
@@ -952,8 +952,21 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-void length_string(char* str, int* size){
+void length_string(char *str, int *size){
     //TODO: implementar função.
 }
 ```
 
+### [Problema 98](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0098) Ponteiros/Referências
+
+Considere a seguinte definição de variável composta heterogênea:
+
+```
+struct aluno{
+    char nome[50];
+    float media;
+    int faltas;
+};
+```
+
+Desenvolva um sistema que leia os dados de N alunos e apresente um relatório contendo nome, quantidade de faltas e média, de forma ordenada decrescente por média. O programa deve utilizar um array alocado dinamicamente, aritmética de ponteiros, funções utilizando ponteiros (quando necessário) e seguir boas práticas de programação.
