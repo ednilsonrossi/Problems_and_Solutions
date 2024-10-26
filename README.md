@@ -924,15 +924,15 @@ Desenvolva um sistema orientado a objetos que simule um jogo de dados, o qual o 
 <a id="ancora6"></a>
 ## Estruturas de Dados
 
-### [Problema 51](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051)
+### [Problema 51](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051): Tipos Abstrado de Dados
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
 
-### [Problema 96](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0096) Ponteiros/Referências
+### [Problema 96](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0096): Ponteiros/Referências
 
 Desenvolva um sistema que leia os valores de uma equação do 2º grau (a, b e c) e apresente os possíveis resultados. O programa deve utilizar função com retorno void, de forma que os resultados sejam obtidos por passagem de parâmetro por referência. Atenção, a leitura de dados e impressão de resultados deve ser realizada na função principal - main().
 
-### [Problema 97](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0097) Ponteiros/Referências
+### [Problema 97](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0097): Ponteiros/Referências
 
 Desenvolva a função length_string(), conforme programa apresentado abaixo. A função calcula o tamanho de uma string.
 
@@ -957,7 +957,7 @@ void length_string(char *str, int *size){
 }
 ```
 
-### [Problema 98](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0098) Ponteiros/Referências
+### [Problema 98](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0098): Ponteiros/Referências
 
 Considere a seguinte definição de variável composta heterogênea:
 
@@ -970,3 +970,29 @@ struct aluno{
 ```
 
 Desenvolva um sistema que leia os dados de N alunos e apresente um relatório contendo nome, quantidade de faltas e média, de forma ordenada decrescente por média. O programa deve utilizar um array alocado dinamicamente, aritmética de ponteiros, funções utilizando ponteiros (quando necessário) e seguir boas práticas de programação.
+
+### [Problema 99](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0099): Tipos Abstratos de Dados
+
+Defina e implemente um TAD para manipulação de datas (T_Date). Uma data é composta por três inteiros: dia, mês e ano. As operações do TAD são:
+
+1. `T_Data create_date(int day, int month, int year)`
+   - Cria uma nova data se os valores de entrada forem válidos, obedecendo as seguintes condições:
+      - O ano deve estar no intervalo entre 1000 e 3000.
+      - A regra dos anos bissextos deve ser considerada.
+      - A quantidade correta de dias para cada mês deve ser verificada.
+   - Caso os argumentos sejam inválidos, a operação deve retornar `NULL`, indicando que a data não pôde ser criada.
+
+2. `char* ptbr_date(T_Date date)`
+   - Retorna uma string contendo a data no formato brasileiro (DD/MM/AAAA).
+   - Exemplo de saída: “28/10/2024”.
+
+3. `char* usa_date(T_Date date)`
+   - Retorna uma string contendo a data no formato americano (AAAA-MM-DD).
+   - Exemplo de saída: “2024-10-28”.
+
+4. `char* complete_date(T_Date date, char* location)`
+   - Retorna a data por extenso, considerando a localização fornecida.
+   - Exemplo de saída: “Araraquara, 28 de outubro de 2024”.
+
+5. `void destroy_date(T_Date date)`
+   - Libera a memória alocada para o `T_Date`.
