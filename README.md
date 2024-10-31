@@ -997,6 +997,37 @@ Desenvolva uma classe `Hora` que modele um horário em um formato preciso e perm
 - Encapsule os detalhes de implementação e garanta que as operações internas respeitem o princípio de imutabilidade, ao retornar novas instâncias sem modificar o estado original.
 - Certifique-se de que as horas, minutos e segundos recebidos no construtor sejam validados para evitar valores inválidos (por exemplo, valores negativos ou superiores ao esperado).
 
+### [Problema 101: SetOfInteger](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0101)
+
+Desenvolva uma classe `SetOfInteger` (conjunto de inteiros), que deve possuir as seguintes características e métodos:
+
+**Construtores**
+
+- **Construtor Padrão**: Cria um conjunto vazio com capacidade para armazenar 100 números inteiros.
+- **Construtor com Parâmetro**: Recebe como parâmetro a capacidade de armazenamento do conjunto e cria um conjunto vazio com a quantidade especificada no parâmetro deste construtor.
+
+**Métodos**
+
+- **`uniao(SetOfInteger outroConjunto)`**: Recebe uma instância da classe `SetOfInteger` como parâmetro e retorna uma nova instância da classe contendo a união do conjunto encapsulado e o conjunto recebido como parâmetro.
+  
+- **`intersecao(SetOfInteger outroConjunto)`**: Recebe uma instância da classe `SetOfInteger` como parâmetro e retorna uma nova instância da classe contendo a interseção do conjunto encapsulado e o conjunto recebido como parâmetro.
+  
+- **`diferenca(SetOfInteger outroConjunto)`**: Recebe uma instância da classe `SetOfInteger` como parâmetro e retorna uma nova instância da classe contendo a diferença entre o conjunto encapsulado e o conjunto recebido como parâmetro.
+
+- **`toString()`**: Gera uma representação textual dos elementos do conjunto, no formato `"[1, 2, 3]"`, para um conjunto com valores de 1 a 3.
+
+**Método `main`**
+
+O método `main` deve:
+
+1. Instanciar dois conjuntos de inteiros.
+2. Inserir aleatoriamente 50 valores entre 1 e 100 em cada um dos dois conjuntos.
+3. Exibir na tela os dois conjuntos gerados, bem como:
+   - A união dos dois conjuntos.
+   - A interseção dos dois conjuntos.
+   - As duas diferenças entre os conjuntos.
+
+
 <!-- ===================================================================================================== -->
 <!-- ===================================================================================================== -->
 <!-- -->
