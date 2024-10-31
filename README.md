@@ -752,6 +752,14 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 
 Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é eleitora ou não. Ao final, apresentar a quantidade de eleitores lidos.
 
+<!-- ===================================================================================================== -->
+<!-- ===================================================================================================== -->
+<!-- -->
+<!--           PROGRAMAÇÃO BÁSICA: VARIÁVEIS COMPOSTAS HOMOGÊNEAS (ARRAYS) -->
+<!-- -->
+<!-- ===================================================================================================== -->
+<!-- ===================================================================================================== -->
+
 <a id="ancora7"></a>
 ## Programação Básica: Variáveis compostas homogêneas (arrays)
 
@@ -808,7 +816,13 @@ Desenvolva um programa que leia uma matriz quadrada de ordem 5 com elementos flo
 
 Desenvolva um programa para ler uma matriz quadrada de ordem N, sendo N <=50 informado pelo usuário. Calcular e mostrar o maior e o menor elemento da diagonal principal da matriz.
 
-
+<!-- ===================================================================================================== -->
+<!-- ===================================================================================================== -->
+<!-- -->
+<!--           PROGRAMAÇÃO BÁSICA: VARIÁVEIS COMPOSTAS HETEROGÊNEAS -->
+<!-- -->
+<!-- ===================================================================================================== -->
+<!-- ===================================================================================================== -->
 <a id="ancora8"></a>
 ## Programação Básica: Variáveis compostas heterogêneas
 
@@ -820,6 +834,13 @@ Desenvolva um programa que armazene placa e velocidade aferida dos veículos que
 
 Desenvolva um sistema para controlar a portaria de um estacionamento de uma universidade. O sistema deve armazenar marca, modelo, cor, placas de um carro e também nome e prontuário do aluno motorista. O sistema deve permitir dois tipos de busca: busca pela placa do carro e busca pelo prontuário do aluno. A busca é aplicada quando um carro sai do estacionamento.
 
+<!-- ===================================================================================================== -->
+<!-- ===================================================================================================== -->
+<!-- -->
+<!--           PROGRAMAÇÃO ORIENTADA A OBJETOS -->
+<!-- -->
+<!-- ===================================================================================================== -->
+<!-- ===================================================================================================== -->
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
@@ -917,22 +938,57 @@ Desenvolva um sistema orientado a objetos que gerencie tarefas, utilizando o pad
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
 
+<!-- ===================================================================================================== -->
+
 ### [Problema 95](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0095)
 
 Desenvolva um sistema orientado a objetos que simule um jogo de dados, o qual o jogador lança 2 dados de seis lados. Deve-se construir uma classe Dado que representa um dado. O programa principal deve lançar os dados 3 vezes e apresentar a soma dos números dos dados a cada um dos lances.
 
+<!-- ===================================================================================================== -->
+
+### [Problema 100: Classe Hora](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0100)
+
+Desenvolva uma classe `Hora` que modele um horário em um formato preciso e permita operações básicas de manipulação de tempo. A classe deve atender aos seguintes requisitos:
+
+- **Atributo:**
+    - Defina um único atributo que armazene a quantidade de segundos decorridos desde a meia-noite. Esse atributo deve ser encapsulado e apenas acessado ou modificado por métodos da classe.
+  
+- **Construtores:**
+    - Implemente um construtor padrão (vazio) que inicialize o horário para a meia-noite (`00:00:00`).
+    - Implemente um construtor sobrecarregado que receba três parâmetros inteiros para definir as horas, os minutos e os segundos. Este construtor deve calcular e armazenar o valor total em segundos desde a meia-noite.
+  
+- **Métodos de Acesso:**
+    - Crie os métodos `getHoras()`, `getMinutos()` e `getSegundos()` para acessar, respectivamente, as horas, minutos e segundos representados pela quantidade total de segundos armazenados.
+
+- **Operação de Adição:**
+    - Implemente o método `addHoras()`, que recebe uma outra instância de `Hora` e retorna uma nova instância da classe `Hora` representando a soma dos horários das duas instâncias (considerando horas, minutos e segundos). Este método não deve alterar o estado das instâncias originais, mantendo-as imutáveis.
+
+- **Representação em String:**
+    - Crie o método `toString()` que retorna uma representação textual do horário no formato `"hh:mm:ss"`, com duas casas para horas, minutos e segundos.
+      
+**Considerações de Orientação a Objetos:**
+- Encapsule os detalhes de implementação e garanta que as operações internas respeitem o princípio de imutabilidade, ao retornar novas instâncias sem modificar o estado original.
+- Certifique-se de que as horas, minutos e segundos recebidos no construtor sejam validados para evitar valores inválidos (por exemplo, valores negativos ou superiores ao esperado).
+
+<!-- ===================================================================================================== -->
+<!-- ===================================================================================================== -->
+<!-- -->
+<!--           ESTRUTURAS DE DADOS -->
+<!-- -->
+<!-- ===================================================================================================== -->
+<!-- ===================================================================================================== -->
 <a id="ancora6"></a>
 ## Estruturas de Dados
 
-### [Problema 51](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051): Tipos Abstrado de Dados
+### [Problema 51: Tipos Abstrado de Dados](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051)
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
 
-### [Problema 96](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0096): Ponteiros/Referências
+### [Problema 96: Ponteiros/Referências](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0096)
 
 Desenvolva um sistema que leia os valores de uma equação do 2º grau (a, b e c) e apresente os possíveis resultados. O programa deve utilizar função com retorno void, de forma que os resultados sejam obtidos por passagem de parâmetro por referência. Atenção, a leitura de dados e impressão de resultados deve ser realizada na função principal - main().
 
-### [Problema 97](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0097): Ponteiros/Referências
+### [Problema 97: Ponteiros/Referências](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0097)
 
 Desenvolva a função length_string(), conforme programa apresentado abaixo. A função calcula o tamanho de uma string.
 
@@ -957,7 +1013,7 @@ void length_string(char *str, int *size){
 }
 ```
 
-### [Problema 98](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0098): Ponteiros/Referências
+### [Problema 98: Ponteiros/Referências](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0098)
 
 Considere a seguinte definição de variável composta heterogênea:
 
@@ -971,7 +1027,7 @@ struct aluno{
 
 Desenvolva um sistema que leia os dados de N alunos e apresente um relatório contendo nome, quantidade de faltas e média, de forma ordenada decrescente por média. O programa deve utilizar um array alocado dinamicamente, aritmética de ponteiros, funções utilizando ponteiros (quando necessário) e seguir boas práticas de programação.
 
-### [Problema 99](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0099): Tipos Abstratos de Dados
+### [Problema 99: Tipos Abstratos de Dados](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0099)
 
 Defina e implemente um TAD para manipulação de datas (T_Date). Uma data é composta por três inteiros: dia, mês e ano. As operações do TAD são:
 
