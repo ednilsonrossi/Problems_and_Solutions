@@ -1090,9 +1090,13 @@ O programa deve instanciar três objetos (sem uso de arrays ou listas), cada um 
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
 
+<!-- ===================================================================================================== -->
+
 ### [Problema 96: Ponteiros/Referências](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0096)
 
 Desenvolva um sistema que leia os valores de uma equação do 2º grau (a, b e c) e apresente os possíveis resultados. O programa deve utilizar função com retorno void, de forma que os resultados sejam obtidos por passagem de parâmetro por referência. Atenção, a leitura de dados e impressão de resultados deve ser realizada na função principal - main().
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 97: Ponteiros/Referências](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0097)
 
@@ -1119,6 +1123,8 @@ void length_string(char *str, int *size){
 }
 ```
 
+<!-- ===================================================================================================== -->
+
 ### [Problema 98: Ponteiros/Referências](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0098)
 
 Considere a seguinte definição de variável composta heterogênea:
@@ -1132,6 +1138,8 @@ struct aluno{
 ```
 
 Desenvolva um sistema que leia os dados de N alunos e apresente um relatório contendo nome, quantidade de faltas e média, de forma ordenada decrescente por média. O programa deve utilizar um array alocado dinamicamente, aritmética de ponteiros, funções utilizando ponteiros (quando necessário) e seguir boas práticas de programação.
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 99: Tipos Abstratos de Dados](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0099)
 
@@ -1158,3 +1166,32 @@ Defina e implemente um TAD para manipulação de datas (T_Date). Uma data é com
 
 5. `void destroy_date(T_Date date)`
    - Libera a memória alocada para o `T_Date`.
+
+<!-- ===================================================================================================== -->
+
+### [Problema 103: TAD Estacionamento em Fila](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0103)
+
+Considere um estacionamento localizado no centro da cidade que segue as seguintes regras:
+
+- O estacionamento é um terreno estreito, permitindo que os carros sejam estacionados apenas em fila, um atrás do outro.
+- O estacionamento possui entrada por uma rua e saída por outra, ou seja, os carros entram por uma extremidade e saem pela outra, sem a possibilidade de ultrapassagem.
+
+Com base nessa descrição, implemente um TAD para gerenciar o funcionamento do estacionamento, simulando a entrada e saída de veículos, além de exibir o estado atual do estacionamento.
+
+#### Funcionalidades do TAD
+
+- `T_Estacionamento create_estacionamento(int capacidade)`
+    - Cria um estacionamento com capacidade máxima de carros. Inicialmente, o estacionamento estará vazio.
+
+- `boolean entra_carro(T_Estacionamento estacionamento, int placa)`
+    - Adiciona um carro ao estacionamento, identificado pela sua placa. Caso o estacionamento esteja cheio, a função deve retornar `false` indicando que não foi possível realizar a operação de entrada.
+
+- `int sai_carro(T_Estacionamento estacionamento)`
+    - Remove o carro que está mais próximo da saída (fim da fila) e o retorna para a rua de saída. A função deve retornar um código de erro se o estacionamento estiver vazio ou a placa do carro que saiu.
+
+- `void exibe_estacionamento(T_Estacionamento estacionamento)`
+    - Exibe o estado atual do estacionamento, mostrando a sequência de placas de carros estacionados.
+
+- `void destroy_estacionamento(T_Estacionamento estacionamento)`
+    - Libera a memória alocada para o `T_Estacionamento`.
+
