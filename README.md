@@ -1026,6 +1026,8 @@ Desenvolva uma classe `Hora` que modele um horário em um formato preciso e perm
 - Encapsule os detalhes de implementação e garanta que as operações internas respeitem o princípio de imutabilidade, ao retornar novas instâncias sem modificar o estado original.
 - Certifique-se de que as horas, minutos e segundos recebidos no construtor sejam validados para evitar valores inválidos (por exemplo, valores negativos ou superiores ao esperado).
 
+<!-- ===================================================================================================== -->
+
 ### [Problema 101: SetOfInteger](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0101)
 
 Desenvolva uma classe `SetOfInteger` (conjunto de inteiros), que deve possuir as seguintes características e métodos:
@@ -1056,6 +1058,23 @@ O método `main` deve:
    - A interseção dos dois conjuntos.
    - As duas diferenças entre os conjuntos.
 
+<!-- ===================================================================================================== -->
+
+### [Problema 102: Concurso](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0102)
+
+Desenvolva um programa orientado a objetos para determinar a classificação final dos candidatos em um concurso. O concurso é composto por três fases, cada uma com uma nota de 0 a 100:
+
+- **Fase teórica**
+- **Fase prática**
+- **Entrevista**
+
+A nota final do candidato deve ser calculada considerando os seguintes pesos para cada fase:
+
+- **Fase teórica**: 30%
+- **Fase prática**: 40%
+- **Entrevista**: 30%
+
+O programa deve instanciar três objetos (sem uso de arrays ou listas), cada um representando um candidato, e exibir a classificação dos candidatos em ordem decrescente de nota final. O nome do candidato com a maior nota deve aparecer em primeiro, seguido pelo segundo e terceiro colocados.
 
 <!-- ===================================================================================================== -->
 <!-- ===================================================================================================== -->
