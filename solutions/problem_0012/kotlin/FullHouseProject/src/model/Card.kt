@@ -14,7 +14,7 @@ class Card(var cardValue: Int, val suit: Suit) {
                 1 -> "${suit.charCode} A"
                 11 -> "${suit.charCode} J"
                 12 -> "${suit.charCode} Q"
-                13 -> "${suit.charCode} A"
+                13 -> "${suit.charCode} K"
                 else -> "${suit.charCode} $cardValue"
             }
         } else

@@ -868,6 +868,7 @@ Desenvolva um sistema para controlar a portaria de um estacionamento de uma univ
 <!-- -->
 <!-- ===================================================================================================== -->
 <!-- ===================================================================================================== -->
+
 <a id="ancora5"></a>
 ## Programação Orientada a Objetos
 
@@ -875,9 +876,13 @@ Desenvolva um sistema para controlar a portaria de um estacionamento de uma univ
 
 Desenvolva uma calculadora com duas operações simples: soma e multiplicação. Contudo, a operação multiplicação deve ser realizada a partir de um algoritmo de soma sucessiva (esse algoritmo é conhecido apenas pela classe).
 
+<!-- ===================================================================================================== -->
+
 ### [Problema 94](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0094)
 
 Desenvolva um sistema orientado a objetos que leia 5 conjuntos de três valores inteiros e informe qual o tipo de triângulo esses valores formam ou se não formam triângulo. Instancie um novo objeto triâmgulo para cada conjunto de dados lido.
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 9](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0009)
 
@@ -899,7 +904,7 @@ Os requisitos funcionais são:
 - **Listar filmes de um ator:** O usuário seleciona um ator e o sistema apresenta uma lista com todos os filmes em que o ator fez parte do elenco.
 - **Listar filmes por nota:** o usuário informa uma nota e o sistema apresenta uma lista com os filmes com nota igual ou superior à informada.
 
-[//]: # (------------------------------------)
+<!-- ===================================================================================================== -->
 
 ### [Problema 10](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0010)
 
@@ -913,7 +918,7 @@ São requisitos funcionais do sistema:
 2. Recuperar a senha. A funcionalidade de recuperar a senha permite que o usuário troque a senha atual por uma nova. O usuário informa seu username e seu e-mail, caso os dados estejam corretos ele poderá gerar uma nova senha.
 3. Fazer login. O usuário informa username e senha, caso os dados estejam corretos é apresentada a mensagem de sucesso de login, caso contrário o usuário recebe informação de erro.
 
-[//]: # (------------------------------------)
+<!-- ===================================================================================================== -->
 
 ### [Problema 11](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0011)
 
@@ -923,17 +928,41 @@ Implemente um método plus() que recebe um objeto USMoney como argumento. Esse m
 
 Deve-se assegurar que o valor do atributo cents do novo objeto esteja entre 0 e 99. Por exemplo, se x for um objeto USMoney com 5 dollars e 80 cents e se y for um objeto USMoney de 1 dollar e 90 cents, x.plus(y) retornará um novo objeto USMoney com 7 dollars e 70 cents.
 
-[//]: # (------------------------------------)
+<!-- ===================================================================================================== -->
 
-### [Problema 12](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0012)
+### [Problema 12: Classe Carta e Verificação de Full House](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0012)
 
-Implemente a classe Carta que representa a carta de um baralho. Essa classe possui como atributos o inteiro valor (representa o valor da carta de 1 a 13) e o caractere naipe (‘P’ paus, ‘C’ copas, ‘O’ ouros e ‘E’ espadas).
+Desenvolva a classe `Carta` que representa a carta de um baralho. Essa classe possui como atributos:
 
-Deve-se implementar um construtor que receba os dois argumentos e valide-os garantindo que o objeto carta instanciado é válido. Implemente também os métodos de acesso e modificadores. Implemente a classe CartaTeste que possui o método principal.
+- **valor**: um inteiro que representa o valor da carta (de 1 a 13).
+- **naipe**: um caractere que representa o naipe da carta:
+  - `'P'` para paus
+  - `'C'` para copas
+  - `'O'` para ouros
+  - `'E'` para espadas
 
-O main() deve instanciar 5 cartas com dados fornecidos pelo usuário e verificar se as cartas formam um full house (isto é, três cartas com o mesmo valor e  outras duas com valores iguais). Caso formem um full house, apresente as 5 cartas usando o método toString() de cada uma delas (personalize para que seja apresentado o naipe e o valor de cada carta), caso não forme full house, apresente uma mensagem de consolação.
+A classe `Carta` deve:
 
-[//]: # (------------------------------------)
+1. Implementar um **construtor** que receba os dois argumentos (valor e naipe) e valide-os, garantindo que o objeto `Carta` instanciado é válido.
+2. Incluir **métodos de acesso** (getters) e **modificadores** (setters) para ambos os atributos.
+
+Implemente também a classe `CartaTeste` com o método principal `main()`. No `main()`, instancie 5 cartas cujos valores e naipes devem ser fornecidos pelo usuário e verifique se as cartas formam um **full house** (ou seja, três cartas com o mesmo valor e outras duas cartas com valores iguais). 
+
+- Se as cartas formarem um full house, apresente as 5 cartas usando o método `toString()` de cada uma delas. Personalize o `toString()` para mostrar o naipe e o valor de cada carta.
+- Se não formarem um full house, apresente uma mensagem de consolação.
+
+#### Mapeamento dos Naipes
+
+Para os caracteres dos naipes, utilize os seguintes valores:
+
+| Naipe    | Caractere |
+|----------|-----------|
+| Paus     | `'\u2663'` |
+| Copas    | `'\u2661'` |
+| Ouros    | `'\u2662'` |
+| Espadas  | `'\u2660'` |
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 13](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0013)
 
@@ -953,13 +982,13 @@ Sabendo que o ônibus possui capacidade máxima de 40 passageiros, implemente um
 - Apresente o valor faturado (faturamento bruto) da viagem.
 - Apresente o valor do lucro ou prejuízo da viagem, de acordo com o custo da viagem informado pelo usuário.
 
-[//]: # (------------------------------------)
+<!-- ===================================================================================================== -->
 
 ### [Problema 14](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0014)
 
 Desenvolva um sistema orientado a objetos que gerencie tarefas, utilizando o padrão arquitetural MVC (Model-View-Controller). O sistema deve possibilitar a inclusão de novas tarefas e a marcação de uma tarefa como concluída. Cada tarefa, representada pela entidade 'Tarefa', possui uma descrição e um indicador que especifica se a tarefa foi concluída ou não.
 
-[//]: # (------------------------------------)
+<!-- ===================================================================================================== -->
 
 ### [Problema 51](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0051)
 
