@@ -1180,18 +1180,18 @@ Com base nessa descrição, implemente um TAD para gerenciar o funcionamento do 
 
 #### Funcionalidades do TAD
 
-- `T_Estacionamento create_estacionamento(int capacidade)`
+- `T_Parking createParking(int capacity)`
     - Cria um estacionamento com capacidade máxima de carros. Inicialmente, o estacionamento estará vazio.
 
-- `boolean entra_carro(T_Estacionamento estacionamento, int placa)`
+- `boolean enterParking(T_Parking parking, int carPlate)`
     - Adiciona um carro ao estacionamento, identificado pela sua placa. Caso o estacionamento esteja cheio, a função deve retornar `false` indicando que não foi possível realizar a operação de entrada.
 
-- `int sai_carro(T_Estacionamento estacionamento)`
+- `int exitParking(T_Parking parking);`
     - Remove o carro que está mais próximo da saída (fim da fila) e o retorna para a rua de saída. A função deve retornar um código de erro se o estacionamento estiver vazio ou a placa do carro que saiu.
 
-- `void exibe_estacionamento(T_Estacionamento estacionamento)`
+- `void showParking(T_Parking parking)`
     - Exibe o estado atual do estacionamento, mostrando a sequência de placas de carros estacionados.
 
-- `void destroy_estacionamento(T_Estacionamento estacionamento)`
-    - Libera a memória alocada para o `T_Estacionamento`.
+- `void destroyParking(T_Parking parking)`
+    - Libera a memória alocada para o `T_Parking`.
 

@@ -4,7 +4,7 @@ struct parking {
     int *parkingSpaces;
     int occupiedSpaces;
     int totalCapacity;
-};
+}; 
 
 
 T_Parking createParking(int capacity){
@@ -16,6 +16,9 @@ T_Parking createParking(int capacity){
         parking->occupiedSpaces = 0;
         parking->totalCapacity = capacity;
         parking->parkingSpaces = malloc(sizeof(int) * capacity);
+        if (parking->parkingSpaces == NULL) {
+            free(parking);
+        }
     }
 
     return parking;
@@ -48,12 +51,17 @@ int exitParking(T_Parking parking) {
 }
 
 void showParking(T_Parking parking) {
-    printf("Estacionamento: \n");
-    for (int i = 0; i < parking->occupiedSpaces; i++) {
-        printf("\t->%04d\n", parking->parkingSpaces[i]);
+    if (parking != NULL) {
+        printf("Estacionamento: \n");
+        for (int i = 0; i < parking->occupiedSpaces; i++) {
+            printf("\t->%04d\n", parking->parkingSpaces[i]);
+        }
+    } else {
+        printf("Estacionamento inválido.\n");
     }
 }
 
 void destroyParking(T_Parking parking) {
+    free(parking->parkingSpaces);
     free(parking);
 }
