@@ -994,6 +994,7 @@ João”
 
 No método `main()` de uma classe qualquer, instancie vários cartões e apresente o resultado. Abaixo segue Diagrama de Classes do sistema.
 
+![Diagrama de classes](solutions/problem_0105/java/CartoesWeb/diagrams/class-diagram.drawio.png)
 
 #### Soluções em
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
