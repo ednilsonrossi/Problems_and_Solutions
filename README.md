@@ -967,6 +967,56 @@ São requisitos funcionais do sistema:
 
 <!-- ===================================================================================================== -->
 
+### [Problema 11](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0011)
+
+Crie uma classe USMoney com dois atributos inteiros: dollars e cents. Adicione um construtor com dois parâmetros para a inicialização do objeto USMoney. O construtor deve verificar se o valor de cents está entre 0 e 99 e,  se não estiver, transferir alguns dos cents para o atributo dollars para que ela passe a ter entre 0 e 99.
+
+Implemente um método plus() que recebe um objeto USMoney como argumento. Esse método deve criar e retornar um novo objeto USMoney representando a soma dos objeto cujo método plus() está sendo chamado mais o argumento, sem modificar os valores dos dois objetos já existentes.
+
+Deve-se assegurar que o valor do atributo cents do novo objeto esteja entre 0 e 99. Por exemplo, se x for um objeto USMoney com 5 dollars e 80 cents e se y for um objeto USMoney de 1 dollar e 90 cents, x.plus(y) retornará um novo objeto USMoney com 7 dollars e 70 cents.
+
+#### Soluções em
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+
+<!-- ===================================================================================================== -->
+
+### [Problema 12: Classe Carta e Verificação de Full House](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0012)
+
+Desenvolva a classe `Carta` que representa a carta de um baralho. Essa classe possui como atributos:
+
+- **valor**: um inteiro que representa o valor da carta (de 1 a 13).
+- **naipe**: um caractere que representa o naipe da carta:
+  - `'P'` para paus
+  - `'C'` para copas
+  - `'O'` para ouros
+  - `'E'` para espadas
+
+A classe `Carta` deve:
+
+1. Implementar um **construtor** que receba os dois argumentos (valor e naipe) e valide-os, garantindo que o objeto `Carta` instanciado é válido.
+2. Incluir **métodos de acesso** (getters) e **modificadores** (setters) para ambos os atributos.
+
+Implemente também a classe `CartaTeste` com o método principal `main()`. No `main()`, instancie 5 cartas cujos valores e naipes devem ser fornecidos pelo usuário e verifique se as cartas formam um **full house** (ou seja, três cartas com o mesmo valor e outras duas cartas com valores iguais). 
+
+- Se as cartas formarem um full house, apresente as 5 cartas usando o método `toString()` de cada uma delas. Personalize o `toString()` para mostrar o naipe e o valor de cada carta.
+- Se não formarem um full house, apresente uma mensagem de consolação.
+
+#### Mapeamento dos Naipes
+
+Para os caracteres dos naipes, utilize os seguintes valores:
+
+| Naipe    | Caractere |
+|----------|-----------|
+| Paus     | `'\u2663'` |
+| Copas    | `'\u2661'` |
+| Ouros    | `'\u2662'` |
+| Espadas  | `'\u2660'` |
+
+<!-- ===================================================================================================== -->
+
 ### [Problema 104: Projeto de Calculadora - Herança](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0104)
 
 Desenvolva uma aplicação para simular uma calculadora simples, que inicialmente suporte apenas duas operações aritméticas (soma e subtração) entre dois números decimais quaisquer. O código da calculadora deve ser projetado de forma que a adição de novas operações não exija a modificação do código existente, mas sim a criação de novas classes que estendam a funcionalidade da calculadora original por meio de herança. A operação desejada e os operandos (dois números) devem ser armazenados como atributos na calculadora, e o cálculo correspondente deve ser realizado por meio de um método específico. A classe principal da calculadora será responsável apenas por gerenciar os atributos e delegar a execução da operação para as classes especializadas, garantindo assim que o código da calculadora seja genérico e extensível. Além disso, você deve estender a classe original da calculadora para implementar as operações de multiplicação e divisão, assegurando que essas novas operações sigam a mesma abordagem de herança utilizada para soma e subtração. Por fim, crie uma classe cliente que permita instanciar a calculadora, definir os números e a operação desejada, e exibir o resultado dos cálculos realizados, por exemplo, soma, subtração, multiplicação ou divisão.
@@ -1012,62 +1062,13 @@ Desenvolva um sistema para o controle de uma fila de atendimento ao cliente.
 - Existem vários guichês de atendimento. Alguns são para atendimento preferencial e outros não preferencial. Contudo, os guichês de atendimento preferencial podem atender clientes da fila não preferencial, caso a fila preferencial esteja vazia. 
 - O sistema deve seguir o conceito restrito de fila, ou seja, o cliente que entrou na fila primeiro deve ser atendido primeiro, respeitando a respectiva fila.
 
+A seguir está disponível o diagrama de classes sugerido para o desenvolvimento da solução do problema:
 
+![Diagrama de Classes](solutions/problem_0106/java/CustomerServiceSystem/diagram/Atendimento-ao-cliente.drawio.png)
 
 #### Soluções em
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
-
-<!-- ===================================================================================================== -->
-
-### [Problema 11](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0011)
-
-Crie uma classe USMoney com dois atributos inteiros: dollars e cents. Adicione um construtor com dois parâmetros para a inicialização do objeto USMoney. O construtor deve verificar se o valor de cents está entre 0 e 99 e,  se não estiver, transferir alguns dos cents para o atributo dollars para que ela passe a ter entre 0 e 99.
-
-Implemente um método plus() que recebe um objeto USMoney como argumento. Esse método deve criar e retornar um novo objeto USMoney representando a soma dos objeto cujo método plus() está sendo chamado mais o argumento, sem modificar os valores dos dois objetos já existentes.
-
-Deve-se assegurar que o valor do atributo cents do novo objeto esteja entre 0 e 99. Por exemplo, se x for um objeto USMoney com 5 dollars e 80 cents e se y for um objeto USMoney de 1 dollar e 90 cents, x.plus(y) retornará um novo objeto USMoney com 7 dollars e 70 cents.
-
-#### Soluções em
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-
-
-<!-- ===================================================================================================== -->
-
-### [Problema 12: Classe Carta e Verificação de Full House](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0012)
-
-Desenvolva a classe `Carta` que representa a carta de um baralho. Essa classe possui como atributos:
-
-- **valor**: um inteiro que representa o valor da carta (de 1 a 13).
-- **naipe**: um caractere que representa o naipe da carta:
-  - `'P'` para paus
-  - `'C'` para copas
-  - `'O'` para ouros
-  - `'E'` para espadas
-
-A classe `Carta` deve:
-
-1. Implementar um **construtor** que receba os dois argumentos (valor e naipe) e valide-os, garantindo que o objeto `Carta` instanciado é válido.
-2. Incluir **métodos de acesso** (getters) e **modificadores** (setters) para ambos os atributos.
-
-Implemente também a classe `CartaTeste` com o método principal `main()`. No `main()`, instancie 5 cartas cujos valores e naipes devem ser fornecidos pelo usuário e verifique se as cartas formam um **full house** (ou seja, três cartas com o mesmo valor e outras duas cartas com valores iguais). 
-
-- Se as cartas formarem um full house, apresente as 5 cartas usando o método `toString()` de cada uma delas. Personalize o `toString()` para mostrar o naipe e o valor de cada carta.
-- Se não formarem um full house, apresente uma mensagem de consolação.
-
-#### Mapeamento dos Naipes
-
-Para os caracteres dos naipes, utilize os seguintes valores:
-
-| Naipe    | Caractere |
-|----------|-----------|
-| Paus     | `'\u2663'` |
-| Copas    | `'\u2661'` |
-| Ouros    | `'\u2662'` |
-| Espadas  | `'\u2660'` |
 
 <!-- ===================================================================================================== -->
 

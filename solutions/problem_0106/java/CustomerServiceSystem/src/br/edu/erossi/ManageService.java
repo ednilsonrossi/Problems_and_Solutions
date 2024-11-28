@@ -24,7 +24,6 @@ public class ManageService {
 	
 	public String callClient(Counter counter) {
 		Client client = null;
-		String str;
 		Queue queue;
 		
 		if (counter instanceof PriorityCounter) {
