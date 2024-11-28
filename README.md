@@ -189,17 +189,29 @@ Desenvolva um programa para ler o ano de nascimento de uma pessoa e o ano atual.
 
 Desenvolva um programa que leia dois números inteiros referentes aos lados de uma figura geométrica. O programa deve informar se os dados formam um quadrado ou um retângulo.
 
-[//]: # (------------------------------------)
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 2](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0002)
 
 Desenvolva um programa que leia três valores do tipo ponto flutuante e verifique se esses valores formam ou não um triângulo. Caso formem triângulo, o programa deve informar o tipo do triângulo (equilátero, isósceles ou escaleno).
 
-[//]: # (------------------------------------)
+#### Soluções em
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 41](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0041)
 
 Desenvolva um programa que leia 5 notas, calcule a média dessas notas e escreva Reprovado (média < 5), Recuperação (média >= 5 e <7) ou Aprovado (média > 7).
+
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 42](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0042)
 
@@ -334,13 +346,21 @@ Desenvolver um programa que leia a idade de 5 pessoas e informar se cada uma é 
 
 Desenvolva um programa que apresente os números de 1 a 100 na mesma linha, em ordem crescente.
 
-[//]: # (------------------------------------)
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 4](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0004)
 
 Desenvolva um programa que apresente os números de 1 a 100 na mesma linha, em ordem decrescente.
 
-[//]: # (------------------------------------)
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 5](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0005)
 
@@ -348,19 +368,31 @@ Desenvolva um programa que leia um valor inteiro N. Este N indica a quantidade d
 
 ![I/O screen](https://github.com/ednilsonrossi/Problems_and_Solutions/blob/main/assets/problem_0005.png?raw=true)
 
-[//]: # (------------------------------------)
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 6](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0006)
 
 Dois números são ditos amigáveis, se cada um deles é igual à soma dos divisores próprios do outro. Por exemplo, 284 e 220 são amigáveis, pois a soma dos divisores próprios de 220 dá 284, ao passo que a soma dos divisores próprios de 284 é 220. Desenvolva um programa que receba um número inteiro qualquer e verifique se este possui um número amigável.
 
-[//]: # (------------------------------------)
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 7](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0007)
 
 Desenvolva um programa para ler N valores inteiros, sendo N fornecido pelo usuário. Calcule e mostre: O maior valor negativo; O menor valor positivo.
 
-[//]: # (------------------------------------)
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 8](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0008)
 
@@ -369,6 +401,12 @@ Desenvolva um programa que calcule o fatorial de um número inteiro fornecido pe
 #### Problema 8 (b)
 
 Desenvolva um programa que leia um valor N que indica quantos inteiros e positivos devem ser lidos a seguir. Para cada número lido, apresente o fatorial do número.
+
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+
+<!-- ===================================================================================================== -->
 
 ### [Problema 61](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0061)
 
@@ -904,6 +942,10 @@ Os requisitos funcionais são:
 - **Listar filmes de um ator:** O usuário seleciona um ator e o sistema apresenta uma lista com todos os filmes em que o ator fez parte do elenco.
 - **Listar filmes por nota:** o usuário informa uma nota e o sistema apresenta uma lista com os filmes com nota igual ou superior à informada.
 
+#### Soluções em
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+
 <!-- ===================================================================================================== -->
 
 ### [Problema 10](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0010)
@@ -918,6 +960,45 @@ São requisitos funcionais do sistema:
 2. Recuperar a senha. A funcionalidade de recuperar a senha permite que o usuário troque a senha atual por uma nova. O usuário informa seu username e seu e-mail, caso os dados estejam corretos ele poderá gerar uma nova senha.
 3. Fazer login. O usuário informa username e senha, caso os dados estejam corretos é apresentada a mensagem de sucesso de login, caso contrário o usuário recebe informação de erro.
 
+#### Soluções em
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+
+<!-- ===================================================================================================== -->
+
+### [Problema 104: Projeto de Calculadora - Herança](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0104)
+
+Desenvolva uma aplicação para simular uma calculadora simples, que inicialmente suporte apenas duas operações aritméticas (soma e subtração) entre dois números decimais quaisquer. O código da calculadora deve ser projetado de forma que a adição de novas operações não exija a modificação do código existente, mas sim a criação de novas classes que estendam a funcionalidade da calculadora original por meio de herança. A operação desejada e os operandos (dois números) devem ser armazenados como atributos na calculadora, e o cálculo correspondente deve ser realizado por meio de um método específico. A classe principal da calculadora será responsável apenas por gerenciar os atributos e delegar a execução da operação para as classes especializadas, garantindo assim que o código da calculadora seja genérico e extensível. Além disso, você deve estender a classe original da calculadora para implementar as operações de multiplicação e divisão, assegurando que essas novas operações sigam a mesma abordagem de herança utilizada para soma e subtração. Por fim, crie uma classe cliente que permita instanciar a calculadora, definir os números e a operação desejada, e exibir o resultado dos cálculos realizados, por exemplo, soma, subtração, multiplicação ou divisão.
+
+#### Soluções em
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+
+<!-- ===================================================================================================== -->
+
+### [Problema 105: Cartões Web - Herança, Classe Abstrata e Polimorfismo](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0105)
+
+Desenvolva um sistema para criação de cartões de datas comemorativas. Crie uma classe abstrata chamada `CartaoWeb`. Essa classe representa todos os tipos de cartões web e conterá apenas dois atributos: `destinatário` e `remetente` (`Strings`). Nessa classe você deverá também declarar os métodos `public String showMessage()` e `public abstract String getMessagem()`. Crie classes filhas da classe CartaoWeb: DiaDosNamorados, Natal, Professores, etc.
+
+Cada uma dessas subclasses, deve conter um método construtor que receba o nome do destinatário do cartão. Cada classe também deve ter a mensagem padrão definida que será retornada no `getMensagem()`. O método `showMessage()` deve retornar uma mensagem ao usuário com seu nome e que seja específica para a data de comemorativa do cartão. Por exemplo, essa poderia ser uma mensagem de um cartão de dia dos namorados:
+
+```
+“Maria,
+Feliz Dia dos Namorados!
+Espero que esse tenha sido o único cartão do dia dos namorados que tenha ganhado
+nessa data! ;-)
+De todo meu coração,
+João”
+```
+
+No método `main()` de uma classe qualquer, instancie vários cartões e apresente o resultado. Abaixo segue Diagrama de Classes do sistema.
+
+
+#### Soluções em
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+
 <!-- ===================================================================================================== -->
 
 ### [Problema 11](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0011)
@@ -927,6 +1008,13 @@ Crie uma classe USMoney com dois atributos inteiros: dollars e cents. Adicione u
 Implemente um método plus() que recebe um objeto USMoney como argumento. Esse método deve criar e retornar um novo objeto USMoney representando a soma dos objeto cujo método plus() está sendo chamado mais o argumento, sem modificar os valores dos dois objetos já existentes.
 
 Deve-se assegurar que o valor do atributo cents do novo objeto esteja entre 0 e 99. Por exemplo, se x for um objeto USMoney com 5 dollars e 80 cents e se y for um objeto USMoney de 1 dollar e 90 cents, x.plus(y) retornará um novo objeto USMoney com 7 dollars e 70 cents.
+
+#### Soluções em
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+
 
 <!-- ===================================================================================================== -->
 
