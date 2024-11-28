@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.9.2">
+  <diagram name="Página-1" id="EyAoRnfxf0GMpbDbnAVu">
+    <mxGraphModel dx="1434" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Queue&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;&amp;lt;&amp;lt;abstractI&amp;gt;&amp;gt; enqueue(client: Client): boolean&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;&amp;lt;&amp;lt;abstractI&amp;gt;&amp;gt; dequeue(): Client&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;&amp;lt;&amp;lt;abstractI&amp;gt;&amp;gt; isFull(): boolean&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;&amp;lt;&amp;lt;abstractI&amp;gt;&amp;gt; isEmpty(): boolean&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CircularQueue&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &lt;i&gt;&amp;lt;&amp;lt;static&amp;gt;&amp;gt; MAXSIZE&lt;/i&gt;: Int = 100&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- elements: Client[ N ]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- start: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- end: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- size: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- maxsize: Int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CircularQueue()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CircularQueue(size: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- init()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuVv3RIB7ikXBQNLxtzi-2" target="GuVv3RIB7ikXBQNLxtzi-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="430" as="sourcePoint" />
+            <mxPoint x="490" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Client&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &lt;i&gt;&amp;lt;&amp;lt;static&amp;gt;&amp;gt;&lt;/i&gt; LAST_TICKET: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ticketNumber: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- isPriority: Boolean&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Client()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Client(isPriority: Boolean)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- updateLastTicket()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="90" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.006;exitY=0.575;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GuVv3RIB7ikXBQNLxtzi-1" target="GuVv3RIB7ikXBQNLxtzi-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="430" as="sourcePoint" />
+            <mxPoint x="690" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ManageService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- defaultQueue: Queue&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- priorityQueue: Queue&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ManagerService()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ includeClient(isPriority: Boolean): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ callClient(counter: Counter): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- insert(queue: Queue, client: Client, queueName: String): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="370" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ClientCode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;i&gt;&amp;lt;&amp;lt;static&amp;gt;&amp;gt; main&lt;/i&gt;()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="680" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Counter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- number: Int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Counter(number: Int)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="900" y="430" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PriorityCounter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PriorityCounter(number: Int)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="880" y="600" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuVv3RIB7ikXBQNLxtzi-9" target="GuVv3RIB7ikXBQNLxtzi-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="430" as="sourcePoint" />
+            <mxPoint x="690" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-11" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GuVv3RIB7ikXBQNLxtzi-6" target="GuVv3RIB7ikXBQNLxtzi-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="430" as="sourcePoint" />
+            <mxPoint x="690" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-12" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.304;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GuVv3RIB7ikXBQNLxtzi-6" target="GuVv3RIB7ikXBQNLxtzi-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="430" as="sourcePoint" />
+            <mxPoint x="690" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.013;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GuVv3RIB7ikXBQNLxtzi-6" target="GuVv3RIB7ikXBQNLxtzi-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="430" as="sourcePoint" />
+            <mxPoint x="690" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuVv3RIB7ikXBQNLxtzi-14" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="GuVv3RIB7ikXBQNLxtzi-7" target="GuVv3RIB7ikXBQNLxtzi-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="430" as="sourcePoint" />
+            <mxPoint x="690" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

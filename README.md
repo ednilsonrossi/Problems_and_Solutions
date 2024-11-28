@@ -1002,6 +1002,24 @@ No método `main()` de uma classe qualquer, instancie vários cartões e apresen
 
 <!-- ===================================================================================================== -->
 
+### [Problema 106: Fila de atendimento - Herança, Classe Abstrata e Polimorfismo](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0106)
+
+Desenvolva um sistema para o controle de uma fila de atendimento ao cliente.
+
+**Requisitos do sistema:**
+
+- O sistema de controle de atendimento permite ao cliente a retirada de uma senha que pode ter prioridade preferencial (gestantes, portadores de necessidades especiais e maiores de 65 anos) ou não preferencial. As senhas geradas são sequenciais (para ambos os tipos de clientes) no formato C-001 para clientes não preferenciais e P-001 para clientes preferenciais.
+- Existem vários guichês de atendimento. Alguns são para atendimento preferencial e outros não preferencial. Contudo, os guichês de atendimento preferencial podem atender clientes da fila não preferencial, caso a fila preferencial esteja vazia. 
+- O sistema deve seguir o conceito restrito de fila, ou seja, o cliente que entrou na fila primeiro deve ser atendido primeiro, respeitando a respectiva fila.
+
+
+
+#### Soluções em
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+
+<!-- ===================================================================================================== -->
+
 ### [Problema 11](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0011)
 
 Crie uma classe USMoney com dois atributos inteiros: dollars e cents. Adicione um construtor com dois parâmetros para a inicialização do objeto USMoney. O construtor deve verificar se o valor de cents está entre 0 e 99 e,  se não estiver, transferir alguns dos cents para o atributo dollars para que ela passe a ter entre 0 e 99.
