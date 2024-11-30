@@ -4,7 +4,11 @@ public class Gato extends Animal {
         super(nome);
     }
     
-    public String emiteSom() {
+    public String mia() {
         return "miau";
+    }
+
+    public String emiteSom() {
+        return mia();
     }
 }

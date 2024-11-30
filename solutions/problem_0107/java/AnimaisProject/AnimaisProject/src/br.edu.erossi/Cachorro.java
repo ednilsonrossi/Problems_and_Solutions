@@ -4,7 +4,11 @@ public class Cachorro extends Animal {
         super(nome);
     }
 
-    public String emiteSom() {
+    public String late() {
         return "auau";
+    }
+
+    public String emiteSom() {
+        return late();
     }
 }
