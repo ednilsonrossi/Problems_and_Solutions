@@ -1098,6 +1098,17 @@ Sabendo que o ônibus possui capacidade máxima de 40 passageiros, implemente um
 
 <!-- ===================================================================================================== -->
 
+### [Problema 107: Animais - Herança, Classe Abstrata e Polimorfismo](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0107)
+
+Considerando o diagrama de classes apresentado abaixo, implemente as classes e um programa principal que teste a funcionalidade do projeto.
+
+![Diagrama de Classes](solutions/problem_0107/java/AnimaisProject/AnimaisProject/diagrams/class-diagram.drawio.png)
+
+#### Soluções em
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+<!-- ===================================================================================================== -->
+
 ### [Problema 14](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0014)
 
 Desenvolva um sistema orientado a objetos que gerencie tarefas, utilizando o padrão arquitetural MVC (Model-View-Controller). O sistema deve possibilitar a inclusão de novas tarefas e a marcação de uma tarefa como concluída. Cada tarefa, representada pela entidade 'Tarefa', possui uma descrição e um indicador que especifica se a tarefa foi concluída ou não.
