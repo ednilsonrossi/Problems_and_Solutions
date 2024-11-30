@@ -1215,11 +1215,17 @@ O programa deve instanciar três objetos (sem uso de arrays ou listas), cada um 
 
 Desenvolva um programa que calcule a média aritmética de N números racionais.
 
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
 <!-- ===================================================================================================== -->
 
 ### [Problema 96: Ponteiros/Referências](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0096)
 
 Desenvolva um sistema que leia os valores de uma equação do 2º grau (a, b e c) e apresente os possíveis resultados. O programa deve utilizar função com retorno void, de forma que os resultados sejam obtidos por passagem de parâmetro por referência. Atenção, a leitura de dados e impressão de resultados deve ser realizada na função principal - main().
+
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
 <!-- ===================================================================================================== -->
 
@@ -1248,6 +1254,9 @@ void length_string(char *str, int *size){
 }
 ```
 
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
 <!-- ===================================================================================================== -->
 
 ### [Problema 98: Ponteiros/Referências](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0098)
@@ -1263,6 +1272,9 @@ struct aluno{
 ```
 
 Desenvolva um sistema que leia os dados de N alunos e apresente um relatório contendo nome, quantidade de faltas e média, de forma ordenada decrescente por média. O programa deve utilizar um array alocado dinamicamente, aritmética de ponteiros, funções utilizando ponteiros (quando necessário) e seguir boas práticas de programação.
+
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
 <!-- ===================================================================================================== -->
 
@@ -1292,6 +1304,9 @@ Defina e implemente um TAD para manipulação de datas (T_Date). Uma data é com
 5. `void destroy_date(T_Date date)`
    - Libera a memória alocada para o `T_Date`.
 
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
 <!-- ===================================================================================================== -->
 
 ### [Problema 103: TAD Estacionamento em Fila](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0103)
@@ -1320,3 +1335,27 @@ Com base nessa descrição, implemente um TAD para gerenciar o funcionamento do 
 - `void destroyParking(T_Parking parking)`
     - Libera a memória alocada para o `T_Parking`.
 
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
+<!-- ===================================================================================================== -->
+
+### [Problema 108: TAD Fila - Fura Fila](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0108)
+
+Considere a implementação de filas usando “vetores circulares”. Desenvolva a operação
+
+`bool jumped_queue(T_Queue queue, T_Info element);`
+
+que insere um item na primeira posição da fila. O detalhe é que seu procedimento deve ser O(1), ou seja, não pode movimentar os outros itens da fila (observe que este neste caso, estaremos desrespeitando o conceito de FILA – primeiro a entrar é o primeiro a sair).
+
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
+<!-- ===================================================================================================== -->
+
+### [Problema 109: TAD Fila - Fila com array estático](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0109)
+
+Se uma fila representada por vetores não é considerada circular, sugere-se que cada operação dequeue deve deslocar para “frente” todo elemento restante de uma fila. Um método alternativo é adiar o deslocamento até que “final” seja igual ao último índice do vetor. Quando essa situação ocorre e faz-se uma tentativa de inserir um elemento na fila, a fila inteira é deslocada para “frente”, de modo que o primeiro elemento da fila fique na primeira posição do vetor. Reescreva as operações de fila usando essa nova estratégia de implementação.
+
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
