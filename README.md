@@ -1072,7 +1072,7 @@ A seguir está disponível o diagrama de classes sugerido para o desenvolvimento
 
 <!-- ===================================================================================================== -->
 
-### [Problema 13](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0013)
+### [Problema 13: - Empresa de ônibus: Herança, Classe Abstrata e Polimorfismo](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0013)
 
 Uma empresa de ônibus deseja informatizar seu sistema e registrar seus passageiros em cada viagem. Existem três tipos de passageiros: __regular__, que paga a tarifa inteira da viagem; __estudante__, que paga metade do valor da passagem; e __aposentado__ que não paga passagem. Dos passageiros regulares deseja-se armazenar apenas o nome. Dos estudantes deseja-se armazenar o nome, registro acadêmico e nome da escola. Por fim, dos aposentados deseja-se armazenar o nome, ano de nascimento e RG.
 
@@ -1089,6 +1089,12 @@ Sabendo que o ônibus possui capacidade máxima de 40 passageiros, implemente um
 - Permita a consulta da quantidade de passageiros de cada tipo durante o uso do sistema.
 - Apresente o valor faturado (faturamento bruto) da viagem.
 - Apresente o valor do lucro ou prejuízo da viagem, de acordo com o custo da viagem informado pelo usuário.
+
+#### Soluções em
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
 <!-- ===================================================================================================== -->
 
