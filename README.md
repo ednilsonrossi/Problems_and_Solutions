@@ -1359,3 +1359,27 @@ Se uma fila representada por vetores não é considerada circular, sugere-se que
 
 #### Soluções em
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
+<!-- ===================================================================================================== -->
+
+### [Problema 110: Fila de atendimento - TAD e TAD Fila](https://github.com/ednilsonrossi/Problems_and_Solutions/tree/main/solutions/problem_0110)
+
+Desenvolva um sistema para o controle de uma fila de atendimento ao cliente.
+
+**Requisitos do sistema:**
+
+- O sistema de controle de atendimento permite ao cliente a retirada de uma senha que pode ter prioridade preferencial (gestantes, portadores de necessidades especiais e maiores de 65 anos) ou não preferencial. As senhas geradas são sequenciais (para ambos os tipos de clientes) no formato C-001 para clientes não preferenciais e P-001 para clientes preferenciais.
+- Existem vários guichês de atendimento. Alguns são para atendimento preferencial e outros não preferencial. Contudo, os guichês de atendimento preferencial podem atender clientes da fila não preferencial, caso a fila preferencial esteja vazia. 
+- O sistema deve seguir o conceito restrito de fila, ou seja, o cliente que entrou na fila primeiro deve ser atendido primeiro, respeitando a respectiva fila.
+
+**Requisitos não-funcionais**
+
+- O sistema deve utilizar o conceito de TAD para todos os elementos manipulados pelo sistema (senha, guichê, etc).
+- A implementação do TAD Fila pode considerar armazenamento estático ou dinâmico.
+- O sistema deve possuir arquivos separados para implementações e bibliotecas.
+
+
+**Observação:** Este problema é uma variação do Problema 106.
+
+#### Soluções em
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
