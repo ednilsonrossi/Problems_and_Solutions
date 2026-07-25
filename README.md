@@ -1344,12 +1344,14 @@ Com base nessa descrição, implemente um TAD para gerenciar o funcionamento do 
 
 Considere a implementação de filas usando “vetores circulares”. Desenvolva a operação
 
-`bool jumped_queue(T_Queue queue, T_Info element);`
+`bool jumped_queue(T_Queue queue, T_Info element);` (C)
+`bool jumped_queue(char element);` (C++)
 
 que insere um item na primeira posição da fila. O detalhe é que seu procedimento deve ser O(1), ou seja, não pode movimentar os outros itens da fila (observe que este neste caso, estaremos desrespeitando o conceito de FILA – primeiro a entrar é o primeiro a sair).
 
 #### Soluções em
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/c%2B%2B-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 <!-- ===================================================================================================== -->
 
